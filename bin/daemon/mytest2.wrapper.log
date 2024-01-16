@@ -1,0 +1,18 @@
+2024-01-15 11:06:03 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Appspace\Rawcode\ms-identity-node-final\App\node_modules\node-windows\lib\wrapper.js --file D:\Appspace\Rawcode\ms-identity-node-final\App\bin\www --scriptoptions= --log "MyTest2 wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-15 11:06:03 - Started 13136
+2024-01-15 11:06:38 - Stopping mytest2.exe
+2024-01-15 11:06:38 - ProcessKill 13136
+2024-01-15 11:06:38 - Found child process: 14652 Name: conhost.exe
+2024-01-15 11:06:38 - Found child process: 8428 Name: node.exe
+2024-01-15 11:06:38 - Stopping process 14652
+2024-01-15 11:06:38 - Send SIGINT 14652
+2024-01-15 11:06:38 - SIGINT to 14652 failed - Killing as fallback
+2024-01-15 11:06:38 - Stopping process 8428
+2024-01-15 11:06:38 - Send SIGINT 8428
+2024-01-15 11:06:38 - SIGINT to 8428 failed - Killing as fallback
+2024-01-15 11:06:38 - Stopping process 13136
+2024-01-15 11:06:38 - Send SIGINT 13136
+2024-01-15 11:06:38 - SIGINT to 13136 failed - Killing as fallback
+2024-01-15 11:06:38 - Finished mytest2.exe
+2024-01-15 11:10:44 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Appspace\Rawcode\ms-identity-node-final\App\node_modules\node-windows\lib\wrapper.js --file D:\Appspace\Rawcode\ms-identity-node-final\App\bin\www --scriptoptions= --log "MyTest2 wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-15 11:10:44 - Started 6728

@@ -1,0 +1,352 @@
+[0mGET / [32m200[0m 57.723 ms - 306[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.255 ms - -[0m
+[Mon, 15 Jan 2024 05:38:29 GMT] : @azure/msal-node@1.17.3 : Info - getAuthCodeUrl called
+[Mon, 15 Jan 2024 05:38:29 GMT] : @azure/msal-node@1.17.3 : Verbose - initializeRequestScopes called
+[Mon, 15 Jan 2024 05:38:29 GMT] : [c929cf3f-6fd2-4e26-aff3-088771d220a1] : @azure/msal-node@1.17.3 : Verbose - buildOauthClientConfiguration called
+[Mon, 15 Jan 2024 05:38:29 GMT] : [c929cf3f-6fd2-4e26-aff3-088771d220a1] : @azure/msal-node@1.17.3 : Verbose - building oauth client configuration with the authority: https://login.microsoftonline.com/42b59992-e3b0-4b6c-8771-1787a0d29a27
+[Mon, 15 Jan 2024 05:38:29 GMT] : [c929cf3f-6fd2-4e26-aff3-088771d220a1] : @azure/msal-node@1.17.3 : Verbose - createAuthority called
+[Mon, 15 Jan 2024 05:38:29 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to get cloud discovery metadata in the config
+[Mon, 15 Jan 2024 05:38:29 GMT] : @azure/msal-node@1.17.3 : Verbose - The cloud discovery metadata has been provided as a network response, in the config.
+[Mon, 15 Jan 2024 05:38:29 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to parse the cloud discovery metadata.
+[Mon, 15 Jan 2024 05:38:29 GMT] : @azure/msal-node@1.17.3 : Verbose - Parsed the cloud discovery metadata.
+[Mon, 15 Jan 2024 05:38:29 GMT] : @azure/msal-node@1.17.3 : Verbose - There is returnable metadata attached to the parsed cloud discovery metadata.
+[Mon, 15 Jan 2024 05:38:29 GMT] : @azure/msal-node@1.17.3 : Verbose - Found cloud discovery metadata in the config.
+[Mon, 15 Jan 2024 05:38:29 GMT] : [c929cf3f-6fd2-4e26-aff3-088771d220a1] : @azure/msal-node@1.17.3 : Verbose - Auth code client created
+[0mGET /auth/signin [36m302[0m 413.671 ms - 1268[0m
+[Mon, 15 Jan 2024 05:38:30 GMT] : @azure/msal-node@1.17.3 : Info - acquireTokenByCode called
+[Mon, 15 Jan 2024 05:38:30 GMT] : @azure/msal-node@1.17.3 : Info - acquireTokenByCode - validating state
+[Mon, 15 Jan 2024 05:38:30 GMT] : @azure/msal-node@1.17.3 : Verbose - initializeRequestScopes called
+[Mon, 15 Jan 2024 05:38:30 GMT] : [83905019-164d-4dd5-bb77-710651b2f69c] : @azure/msal-node@1.17.3 : Verbose - buildOauthClientConfiguration called
+[Mon, 15 Jan 2024 05:38:30 GMT] : [83905019-164d-4dd5-bb77-710651b2f69c] : @azure/msal-node@1.17.3 : Verbose - building oauth client configuration with the authority: https://login.microsoftonline.com/42b59992-e3b0-4b6c-8771-1787a0d29a27
+[Mon, 15 Jan 2024 05:38:30 GMT] : [83905019-164d-4dd5-bb77-710651b2f69c] : @azure/msal-node@1.17.3 : Verbose - createAuthority called
+[Mon, 15 Jan 2024 05:38:30 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to get cloud discovery metadata in the config
+[Mon, 15 Jan 2024 05:38:30 GMT] : @azure/msal-node@1.17.3 : Verbose - The cloud discovery metadata has been provided as a network response, in the config.
+[Mon, 15 Jan 2024 05:38:30 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to parse the cloud discovery metadata.
+[Mon, 15 Jan 2024 05:38:30 GMT] : @azure/msal-node@1.17.3 : Verbose - Parsed the cloud discovery metadata.
+[Mon, 15 Jan 2024 05:38:30 GMT] : @azure/msal-node@1.17.3 : Verbose - There is returnable metadata attached to the parsed cloud discovery metadata.
+[Mon, 15 Jan 2024 05:38:30 GMT] : @azure/msal-node@1.17.3 : Verbose - Found cloud discovery metadata in the config.
+[Mon, 15 Jan 2024 05:38:30 GMT] : [83905019-164d-4dd5-bb77-710651b2f69c] : @azure/msal-node@1.17.3 : Verbose - Auth code client created
+[Mon, 15 Jan 2024 05:38:30 GMT] : [83905019-164d-4dd5-bb77-710651b2f69c] : @azure/msal-common@13.1.0 : Info - in acquireToken call in auth-code client
+[Mon, 15 Jan 2024 05:38:31 GMT] : @azure/msal-node@1.17.3 : Info - getTokenCache called
+[0mPOST /auth/redirect [36m302[0m 889.638 ms - 46[0m
+[0mGET / [32m200[0m 4.689 ms - 434[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.289 ms - -[0m
+[0mGET / [32m200[0m 5.272 ms - 306[0m
+[0mGET /stylesheets/style.css [32m200[0m 2.315 ms - 111[0m
+[0mGET /favicon.ico [33m404[0m 6.134 ms - 1313[0m
+[0mGET / [32m200[0m 924.311 ms - 306[0m
+[0mGET /stylesheets/style.css [32m200[0m 12.542 ms - 111[0m
+[Mon, 15 Jan 2024 05:42:17 GMT] : @azure/msal-node@1.17.3 : Info - getAuthCodeUrl called
+[Mon, 15 Jan 2024 05:42:17 GMT] : @azure/msal-node@1.17.3 : Verbose - initializeRequestScopes called
+[Mon, 15 Jan 2024 05:42:17 GMT] : [d0ce53de-037e-440b-b9a7-4d7a1a019229] : @azure/msal-node@1.17.3 : Verbose - buildOauthClientConfiguration called
+[Mon, 15 Jan 2024 05:42:17 GMT] : [d0ce53de-037e-440b-b9a7-4d7a1a019229] : @azure/msal-node@1.17.3 : Verbose - building oauth client configuration with the authority: https://login.microsoftonline.com/42b59992-e3b0-4b6c-8771-1787a0d29a27
+[Mon, 15 Jan 2024 05:42:17 GMT] : [d0ce53de-037e-440b-b9a7-4d7a1a019229] : @azure/msal-node@1.17.3 : Verbose - createAuthority called
+[Mon, 15 Jan 2024 05:42:17 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to get cloud discovery metadata in the config
+[Mon, 15 Jan 2024 05:42:17 GMT] : @azure/msal-node@1.17.3 : Verbose - The cloud discovery metadata has been provided as a network response, in the config.
+[Mon, 15 Jan 2024 05:42:17 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to parse the cloud discovery metadata.
+[Mon, 15 Jan 2024 05:42:17 GMT] : @azure/msal-node@1.17.3 : Verbose - Parsed the cloud discovery metadata.
+[Mon, 15 Jan 2024 05:42:17 GMT] : @azure/msal-node@1.17.3 : Verbose - There is returnable metadata attached to the parsed cloud discovery metadata.
+[Mon, 15 Jan 2024 05:42:17 GMT] : @azure/msal-node@1.17.3 : Verbose - Found cloud discovery metadata in the config.
+[Mon, 15 Jan 2024 05:42:17 GMT] : [d0ce53de-037e-440b-b9a7-4d7a1a019229] : @azure/msal-node@1.17.3 : Verbose - Auth code client created
+[0mGET /auth/signin [36m302[0m 575.830 ms - 1268[0m
+[0mGET / [32m200[0m 9.369 ms - 306[0m
+[0mGET /stylesheets/style.css [36m304[0m 0.834 ms - -[0m
+[Mon, 15 Jan 2024 05:42:23 GMT] : @azure/msal-node@1.17.3 : Info - getAuthCodeUrl called
+[Mon, 15 Jan 2024 05:42:23 GMT] : @azure/msal-node@1.17.3 : Verbose - initializeRequestScopes called
+[Mon, 15 Jan 2024 05:42:23 GMT] : [fc39982e-45d4-49a8-8e87-37d67a90c5d5] : @azure/msal-node@1.17.3 : Verbose - buildOauthClientConfiguration called
+[Mon, 15 Jan 2024 05:42:23 GMT] : [fc39982e-45d4-49a8-8e87-37d67a90c5d5] : @azure/msal-node@1.17.3 : Verbose - building oauth client configuration with the authority: https://login.microsoftonline.com/42b59992-e3b0-4b6c-8771-1787a0d29a27
+[Mon, 15 Jan 2024 05:42:23 GMT] : [fc39982e-45d4-49a8-8e87-37d67a90c5d5] : @azure/msal-node@1.17.3 : Verbose - createAuthority called
+[Mon, 15 Jan 2024 05:42:23 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to get cloud discovery metadata in the config
+[Mon, 15 Jan 2024 05:42:23 GMT] : @azure/msal-node@1.17.3 : Verbose - The cloud discovery metadata has been provided as a network response, in the config.
+[Mon, 15 Jan 2024 05:42:23 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to parse the cloud discovery metadata.
+[Mon, 15 Jan 2024 05:42:23 GMT] : @azure/msal-node@1.17.3 : Verbose - Parsed the cloud discovery metadata.
+[Mon, 15 Jan 2024 05:42:23 GMT] : @azure/msal-node@1.17.3 : Verbose - There is returnable metadata attached to the parsed cloud discovery metadata.
+[Mon, 15 Jan 2024 05:42:23 GMT] : @azure/msal-node@1.17.3 : Verbose - Found cloud discovery metadata in the config.
+[Mon, 15 Jan 2024 05:42:23 GMT] : [fc39982e-45d4-49a8-8e87-37d67a90c5d5] : @azure/msal-node@1.17.3 : Verbose - Auth code client created
+[0mGET /auth/signin [36m302[0m 3.601 ms - 1268[0m
+[Mon, 15 Jan 2024 05:42:24 GMT] : @azure/msal-node@1.17.3 : Info - acquireTokenByCode called
+[Mon, 15 Jan 2024 05:42:24 GMT] : @azure/msal-node@1.17.3 : Info - acquireTokenByCode - validating state
+[Mon, 15 Jan 2024 05:42:24 GMT] : @azure/msal-node@1.17.3 : Verbose - initializeRequestScopes called
+[Mon, 15 Jan 2024 05:42:24 GMT] : [56f6a4d5-a410-4c3a-89bf-6d60fffa8fa9] : @azure/msal-node@1.17.3 : Verbose - buildOauthClientConfiguration called
+[Mon, 15 Jan 2024 05:42:24 GMT] : [56f6a4d5-a410-4c3a-89bf-6d60fffa8fa9] : @azure/msal-node@1.17.3 : Verbose - building oauth client configuration with the authority: https://login.microsoftonline.com/42b59992-e3b0-4b6c-8771-1787a0d29a27
+[Mon, 15 Jan 2024 05:42:24 GMT] : [56f6a4d5-a410-4c3a-89bf-6d60fffa8fa9] : @azure/msal-node@1.17.3 : Verbose - createAuthority called
+[Mon, 15 Jan 2024 05:42:24 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to get cloud discovery metadata in the config
+[Mon, 15 Jan 2024 05:42:24 GMT] : @azure/msal-node@1.17.3 : Verbose - The cloud discovery metadata has been provided as a network response, in the config.
+[Mon, 15 Jan 2024 05:42:24 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to parse the cloud discovery metadata.
+[Mon, 15 Jan 2024 05:42:24 GMT] : @azure/msal-node@1.17.3 : Verbose - Parsed the cloud discovery metadata.
+[Mon, 15 Jan 2024 05:42:24 GMT] : @azure/msal-node@1.17.3 : Verbose - There is returnable metadata attached to the parsed cloud discovery metadata.
+[Mon, 15 Jan 2024 05:42:24 GMT] : @azure/msal-node@1.17.3 : Verbose - Found cloud discovery metadata in the config.
+[Mon, 15 Jan 2024 05:42:24 GMT] : [56f6a4d5-a410-4c3a-89bf-6d60fffa8fa9] : @azure/msal-node@1.17.3 : Verbose - Auth code client created
+[Mon, 15 Jan 2024 05:42:24 GMT] : [56f6a4d5-a410-4c3a-89bf-6d60fffa8fa9] : @azure/msal-common@13.1.0 : Info - in acquireToken call in auth-code client
+[Mon, 15 Jan 2024 05:42:25 GMT] : @azure/msal-node@1.17.3 : Info - getTokenCache called
+[0mPOST /auth/redirect [36m302[0m 1020.014 ms - 46[0m
+[0mGET / [32m200[0m 4.158 ms - 434[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.028 ms - -[0m
+[0mGET /users/id [32m200[0m 11.307 ms - 1840[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.734 ms - -[0m
+[0mGET /users/id [36m302[0m 2.846 ms - 34[0m
+[Mon, 15 Jan 2024 05:44:18 GMT] : @azure/msal-node@1.17.3 : Info - getAuthCodeUrl called
+[Mon, 15 Jan 2024 05:44:18 GMT] : @azure/msal-node@1.17.3 : Verbose - initializeRequestScopes called
+[Mon, 15 Jan 2024 05:44:18 GMT] : [1d80aa26-04e9-45fe-8943-520d8dd833ef] : @azure/msal-node@1.17.3 : Verbose - buildOauthClientConfiguration called
+[Mon, 15 Jan 2024 05:44:18 GMT] : [1d80aa26-04e9-45fe-8943-520d8dd833ef] : @azure/msal-node@1.17.3 : Verbose - building oauth client configuration with the authority: https://login.microsoftonline.com/42b59992-e3b0-4b6c-8771-1787a0d29a27
+[Mon, 15 Jan 2024 05:44:18 GMT] : [1d80aa26-04e9-45fe-8943-520d8dd833ef] : @azure/msal-node@1.17.3 : Verbose - createAuthority called
+[Mon, 15 Jan 2024 05:44:18 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to get cloud discovery metadata in the config
+[Mon, 15 Jan 2024 05:44:18 GMT] : @azure/msal-node@1.17.3 : Verbose - The cloud discovery metadata has been provided as a network response, in the config.
+[Mon, 15 Jan 2024 05:44:18 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to parse the cloud discovery metadata.
+[Mon, 15 Jan 2024 05:44:18 GMT] : @azure/msal-node@1.17.3 : Verbose - Parsed the cloud discovery metadata.
+[Mon, 15 Jan 2024 05:44:18 GMT] : @azure/msal-node@1.17.3 : Verbose - There is returnable metadata attached to the parsed cloud discovery metadata.
+[Mon, 15 Jan 2024 05:44:18 GMT] : @azure/msal-node@1.17.3 : Verbose - Found cloud discovery metadata in the config.
+[Mon, 15 Jan 2024 05:44:18 GMT] : [1d80aa26-04e9-45fe-8943-520d8dd833ef] : @azure/msal-node@1.17.3 : Verbose - Auth code client created
+[0mGET /auth/signin [36m302[0m 2.136 ms - 582[0m
+[0mGET / [36m304[0m 8.115 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.738 ms - -[0m
+[0mGET /users/id [36m304[0m 5.002 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.431 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 0.793 ms - -[0m
+[0mGET /users/id [32m200[0m 11.948 ms - 1403[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.153 ms - -[0m
+[0mGET /users/id [36m304[0m 3.588 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 2.500 ms - -[0m
+[0mGET /users/id [36m304[0m 5.560 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.763 ms - -[0m
+[0mGET / [36m304[0m 3.685 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 0.875 ms - -[0m
+[0mGET /users/id [36m304[0m 4.481 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.056 ms - -[0m
+[0mGET /users/id [32m200[0m 3.927 ms - 1840[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.370 ms - -[0m
+[0mGET /users/id [32m200[0m 10.385 ms - 1403[0m
+[0mGET /stylesheets/style.css [36m304[0m 2.400 ms - -[0m
+[0mGET /users/id [36m304[0m 3.625 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 2.050 ms - -[0m
+[0mGET /users/id [32m200[0m 4.447 ms - 1840[0m
+[0mGET /stylesheets/style.css [36m304[0m 0.893 ms - -[0m
+[0mGET /users/id [32m200[0m 8.823 ms - 2585[0m
+[0mGET /stylesheets/style.css [36m304[0m 0.714 ms - -[0m
+[0mGET /users/id [32m200[0m 9.077 ms - 2148[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.824 ms - -[0m
+[0mGET /users/id [36m304[0m 9.018 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 0.939 ms - -[0m
+[0mGET /users/id [36m304[0m 3.337 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 0.763 ms - -[0m
+[0mGET /users/id [36m304[0m 4.662 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 0.812 ms - -[0m
+[0mGET /users/id [36m304[0m 3.425 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.362 ms - -[0m
+[0mGET /users/id [36m304[0m 2.940 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 2.065 ms - -[0m
+[0mGET /users/id [36m304[0m 2.358 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.727 ms - -[0m
+[0mGET /users/id [32m200[0m 12.644 ms - 1840[0m
+[0mGET /stylesheets/style.css [36m304[0m 0.887 ms - -[0m
+[0mGET /users/id [36m304[0m 3.831 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 2.146 ms - -[0m
+[0mGET /users/id [36m304[0m 4.413 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 2.402 ms - -[0m
+[0mGET / [36m304[0m 11.255 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.026 ms - -[0m
+[0mGET /users/id [36m304[0m 2.737 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 0.920 ms - -[0m
+[0mGET / [36m304[0m 2.886 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.166 ms - -[0m
+[Mon, 15 Jan 2024 05:59:56 GMT] : @azure/msal-node@1.17.3 : Info - getTokenCache called
+[Mon, 15 Jan 2024 05:59:56 GMT] : @azure/msal-node@1.17.3 : Verbose - initializeRequestScopes called
+[Mon, 15 Jan 2024 05:59:56 GMT] : [a7b82096-3cd4-4393-af9b-abd7724ebfb6] : @azure/msal-node@1.17.3 : Verbose - buildOauthClientConfiguration called
+[Mon, 15 Jan 2024 05:59:56 GMT] : [a7b82096-3cd4-4393-af9b-abd7724ebfb6] : @azure/msal-node@1.17.3 : Verbose - building oauth client configuration with the authority: https://login.microsoftonline.com/42b59992-e3b0-4b6c-8771-1787a0d29a27
+[Mon, 15 Jan 2024 05:59:56 GMT] : [a7b82096-3cd4-4393-af9b-abd7724ebfb6] : @azure/msal-node@1.17.3 : Verbose - createAuthority called
+[Mon, 15 Jan 2024 05:59:56 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to get cloud discovery metadata in the config
+[Mon, 15 Jan 2024 05:59:56 GMT] : @azure/msal-node@1.17.3 : Verbose - The cloud discovery metadata has been provided as a network response, in the config.
+[Mon, 15 Jan 2024 05:59:56 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to parse the cloud discovery metadata.
+[Mon, 15 Jan 2024 05:59:56 GMT] : @azure/msal-node@1.17.3 : Verbose - Parsed the cloud discovery metadata.
+[Mon, 15 Jan 2024 05:59:56 GMT] : @azure/msal-node@1.17.3 : Verbose - There is returnable metadata attached to the parsed cloud discovery metadata.
+[Mon, 15 Jan 2024 05:59:56 GMT] : @azure/msal-node@1.17.3 : Verbose - Found cloud discovery metadata in the config.
+[Mon, 15 Jan 2024 05:59:56 GMT] : [a7b82096-3cd4-4393-af9b-abd7724ebfb6] : @azure/msal-node@1.17.3 : Verbose - Silent flow client created
+[Mon, 15 Jan 2024 05:59:56 GMT] : @azure/msal-common@13.1.0 : Info - CacheManager:getIdToken - Returning id token
+[Mon, 15 Jan 2024 05:59:56 GMT] : @azure/msal-common@13.1.0 : Info - CacheManager:getAccessToken - Returning access token
+[Mon, 15 Jan 2024 05:59:56 GMT] : @azure/msal-common@13.1.0 : Info - CacheManager:getRefreshToken - returning refresh token
+[Mon, 15 Jan 2024 05:59:56 GMT] : @azure/msal-node@1.17.3 : Info - getTokenCache called
+[0mGET /auth/acquireToken [36m302[0m 4.999 ms - 72[0m
+request made to https://graph.microsoft.com/v1.0/me at: Mon Jan 15 2024 11:29:56 GMT+0530 (India Standard Time)
+[0mGET /users/profile [32m200[0m 632.241 ms - 1452[0m
+[0mGET /stylesheets/style.css [36m304[0m 2.059 ms - -[0m
+request made to https://graph.microsoft.com/v1.0/me at: Mon Jan 15 2024 11:30:47 GMT+0530 (India Standard Time)
+[0mGET /users/profile [36m304[0m 307.575 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.359 ms - -[0m
+[0mGET / [36m304[0m 4.164 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.682 ms - -[0m
+[0mGET /users/id [36m304[0m 2.392 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.932 ms - -[0m
+[0mGET / [36m304[0m 4.466 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.313 ms - -[0m
+[Mon, 15 Jan 2024 06:00:58 GMT] : @azure/msal-node@1.17.3 : Info - getTokenCache called
+[Mon, 15 Jan 2024 06:00:58 GMT] : @azure/msal-node@1.17.3 : Verbose - initializeRequestScopes called
+[Mon, 15 Jan 2024 06:00:58 GMT] : [b17a9d9d-056a-4f05-8ab5-9969ec247758] : @azure/msal-node@1.17.3 : Verbose - buildOauthClientConfiguration called
+[Mon, 15 Jan 2024 06:00:58 GMT] : [b17a9d9d-056a-4f05-8ab5-9969ec247758] : @azure/msal-node@1.17.3 : Verbose - building oauth client configuration with the authority: https://login.microsoftonline.com/42b59992-e3b0-4b6c-8771-1787a0d29a27
+[Mon, 15 Jan 2024 06:00:58 GMT] : [b17a9d9d-056a-4f05-8ab5-9969ec247758] : @azure/msal-node@1.17.3 : Verbose - createAuthority called
+[Mon, 15 Jan 2024 06:00:58 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to get cloud discovery metadata in the config
+[Mon, 15 Jan 2024 06:00:58 GMT] : @azure/msal-node@1.17.3 : Verbose - The cloud discovery metadata has been provided as a network response, in the config.
+[Mon, 15 Jan 2024 06:00:58 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to parse the cloud discovery metadata.
+[Mon, 15 Jan 2024 06:00:58 GMT] : @azure/msal-node@1.17.3 : Verbose - Parsed the cloud discovery metadata.
+[Mon, 15 Jan 2024 06:00:58 GMT] : @azure/msal-node@1.17.3 : Verbose - There is returnable metadata attached to the parsed cloud discovery metadata.
+[Mon, 15 Jan 2024 06:00:58 GMT] : @azure/msal-node@1.17.3 : Verbose - Found cloud discovery metadata in the config.
+[Mon, 15 Jan 2024 06:00:58 GMT] : [b17a9d9d-056a-4f05-8ab5-9969ec247758] : @azure/msal-node@1.17.3 : Verbose - Silent flow client created
+[Mon, 15 Jan 2024 06:00:58 GMT] : @azure/msal-common@13.1.0 : Info - CacheManager:getIdToken - Returning id token
+[Mon, 15 Jan 2024 06:00:58 GMT] : @azure/msal-common@13.1.0 : Info - CacheManager:getAccessToken - Returning access token
+[Mon, 15 Jan 2024 06:00:58 GMT] : @azure/msal-common@13.1.0 : Info - CacheManager:getRefreshToken - returning refresh token
+[Mon, 15 Jan 2024 06:00:58 GMT] : @azure/msal-node@1.17.3 : Info - getTokenCache called
+[0mGET /auth/acquireToken [36m302[0m 2.053 ms - 72[0m
+request made to https://graph.microsoft.com/v1.0/me at: Mon Jan 15 2024 11:30:58 GMT+0530 (India Standard Time)
+[0mGET /users/profile [36m304[0m 310.045 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.117 ms - -[0m
+request made to https://graph.microsoft.com/v1.0/me at: Mon Jan 15 2024 11:39:39 GMT+0530 (India Standard Time)
+[0mGET /users/profile [36m304[0m 341.023 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.085 ms - -[0m
+[0mGET / [36m304[0m 3.554 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.965 ms - -[0m
+[0mGET /users/id [36m304[0m 2.921 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.794 ms - -[0m
+[0mGET / [36m304[0m 5.124 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.398 ms - -[0m
+[0mGET /auth/signout [36m302[0m 0.799 ms - 316[0m
+[0mGET / [32m200[0m 3.705 ms - 306[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.089 ms - -[0m
+[Mon, 15 Jan 2024 06:10:14 GMT] : @azure/msal-node@1.17.3 : Info - getAuthCodeUrl called
+[Mon, 15 Jan 2024 06:10:14 GMT] : @azure/msal-node@1.17.3 : Verbose - initializeRequestScopes called
+[Mon, 15 Jan 2024 06:10:14 GMT] : [736d7979-2e07-4700-a7c7-299d3c4b2d4b] : @azure/msal-node@1.17.3 : Verbose - buildOauthClientConfiguration called
+[Mon, 15 Jan 2024 06:10:14 GMT] : [736d7979-2e07-4700-a7c7-299d3c4b2d4b] : @azure/msal-node@1.17.3 : Verbose - building oauth client configuration with the authority: https://login.microsoftonline.com/42b59992-e3b0-4b6c-8771-1787a0d29a27
+[Mon, 15 Jan 2024 06:10:14 GMT] : [736d7979-2e07-4700-a7c7-299d3c4b2d4b] : @azure/msal-node@1.17.3 : Verbose - createAuthority called
+[Mon, 15 Jan 2024 06:10:14 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to get cloud discovery metadata in the config
+[Mon, 15 Jan 2024 06:10:14 GMT] : @azure/msal-node@1.17.3 : Verbose - The cloud discovery metadata has been provided as a network response, in the config.
+[Mon, 15 Jan 2024 06:10:14 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to parse the cloud discovery metadata.
+[Mon, 15 Jan 2024 06:10:14 GMT] : @azure/msal-node@1.17.3 : Verbose - Parsed the cloud discovery metadata.
+[Mon, 15 Jan 2024 06:10:14 GMT] : @azure/msal-node@1.17.3 : Verbose - There is returnable metadata attached to the parsed cloud discovery metadata.
+[Mon, 15 Jan 2024 06:10:14 GMT] : @azure/msal-node@1.17.3 : Verbose - Found cloud discovery metadata in the config.
+[Mon, 15 Jan 2024 06:10:14 GMT] : [736d7979-2e07-4700-a7c7-299d3c4b2d4b] : @azure/msal-node@1.17.3 : Verbose - Auth code client created
+[0mGET /auth/signin [36m302[0m 1.710 ms - 1268[0m
+[Mon, 15 Jan 2024 06:11:02 GMT] : @azure/msal-node@1.17.3 : Info - acquireTokenByCode called
+[Mon, 15 Jan 2024 06:11:02 GMT] : @azure/msal-node@1.17.3 : Info - acquireTokenByCode - validating state
+[Mon, 15 Jan 2024 06:11:02 GMT] : @azure/msal-node@1.17.3 : Verbose - initializeRequestScopes called
+[Mon, 15 Jan 2024 06:11:02 GMT] : [10b05d8c-9636-4b47-93db-7cce1fee0280] : @azure/msal-node@1.17.3 : Verbose - buildOauthClientConfiguration called
+[Mon, 15 Jan 2024 06:11:02 GMT] : [10b05d8c-9636-4b47-93db-7cce1fee0280] : @azure/msal-node@1.17.3 : Verbose - building oauth client configuration with the authority: https://login.microsoftonline.com/42b59992-e3b0-4b6c-8771-1787a0d29a27
+[Mon, 15 Jan 2024 06:11:02 GMT] : [10b05d8c-9636-4b47-93db-7cce1fee0280] : @azure/msal-node@1.17.3 : Verbose - createAuthority called
+[Mon, 15 Jan 2024 06:11:02 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to get cloud discovery metadata in the config
+[Mon, 15 Jan 2024 06:11:02 GMT] : @azure/msal-node@1.17.3 : Verbose - The cloud discovery metadata has been provided as a network response, in the config.
+[Mon, 15 Jan 2024 06:11:02 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to parse the cloud discovery metadata.
+[Mon, 15 Jan 2024 06:11:02 GMT] : @azure/msal-node@1.17.3 : Verbose - Parsed the cloud discovery metadata.
+[Mon, 15 Jan 2024 06:11:02 GMT] : @azure/msal-node@1.17.3 : Verbose - There is returnable metadata attached to the parsed cloud discovery metadata.
+[Mon, 15 Jan 2024 06:11:02 GMT] : @azure/msal-node@1.17.3 : Verbose - Found cloud discovery metadata in the config.
+[Mon, 15 Jan 2024 06:11:02 GMT] : [10b05d8c-9636-4b47-93db-7cce1fee0280] : @azure/msal-node@1.17.3 : Verbose - Auth code client created
+[Mon, 15 Jan 2024 06:11:02 GMT] : [10b05d8c-9636-4b47-93db-7cce1fee0280] : @azure/msal-common@13.1.0 : Info - in acquireToken call in auth-code client
+[Mon, 15 Jan 2024 06:11:03 GMT] : @azure/msal-node@1.17.3 : Info - getTokenCache called
+[0mPOST /auth/redirect [36m302[0m 262.599 ms - 46[0m
+[0mGET / [32m200[0m 4.802 ms - 434[0m
+[0mGET /stylesheets/style.css [36m304[0m 0.827 ms - -[0m
+[0mGET /users/id [32m200[0m 2.723 ms - 1840[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.647 ms - -[0m
+[0mGET / [36m304[0m 2.859 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.134 ms - -[0m
+[Mon, 15 Jan 2024 06:11:08 GMT] : @azure/msal-node@1.17.3 : Info - getTokenCache called
+[Mon, 15 Jan 2024 06:11:08 GMT] : @azure/msal-node@1.17.3 : Verbose - initializeRequestScopes called
+[Mon, 15 Jan 2024 06:11:08 GMT] : [fb5c5421-3787-4218-91d7-f7449a0c89fd] : @azure/msal-node@1.17.3 : Verbose - buildOauthClientConfiguration called
+[Mon, 15 Jan 2024 06:11:08 GMT] : [fb5c5421-3787-4218-91d7-f7449a0c89fd] : @azure/msal-node@1.17.3 : Verbose - building oauth client configuration with the authority: https://login.microsoftonline.com/42b59992-e3b0-4b6c-8771-1787a0d29a27
+[Mon, 15 Jan 2024 06:11:08 GMT] : [fb5c5421-3787-4218-91d7-f7449a0c89fd] : @azure/msal-node@1.17.3 : Verbose - createAuthority called
+[Mon, 15 Jan 2024 06:11:08 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to get cloud discovery metadata in the config
+[Mon, 15 Jan 2024 06:11:08 GMT] : @azure/msal-node@1.17.3 : Verbose - The cloud discovery metadata has been provided as a network response, in the config.
+[Mon, 15 Jan 2024 06:11:08 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to parse the cloud discovery metadata.
+[Mon, 15 Jan 2024 06:11:08 GMT] : @azure/msal-node@1.17.3 : Verbose - Parsed the cloud discovery metadata.
+[Mon, 15 Jan 2024 06:11:08 GMT] : @azure/msal-node@1.17.3 : Verbose - There is returnable metadata attached to the parsed cloud discovery metadata.
+[Mon, 15 Jan 2024 06:11:08 GMT] : @azure/msal-node@1.17.3 : Verbose - Found cloud discovery metadata in the config.
+[Mon, 15 Jan 2024 06:11:08 GMT] : [fb5c5421-3787-4218-91d7-f7449a0c89fd] : @azure/msal-node@1.17.3 : Verbose - Silent flow client created
+[Mon, 15 Jan 2024 06:11:08 GMT] : @azure/msal-common@13.1.0 : Info - CacheManager:getIdToken - Returning id token
+[Mon, 15 Jan 2024 06:11:08 GMT] : @azure/msal-common@13.1.0 : Info - CacheManager:getAccessToken - Returning access token
+[Mon, 15 Jan 2024 06:11:08 GMT] : @azure/msal-common@13.1.0 : Info - CacheManager:getRefreshToken - returning refresh token
+[Mon, 15 Jan 2024 06:11:08 GMT] : @azure/msal-node@1.17.3 : Info - getTokenCache called
+[0mGET /auth/acquireToken [36m302[0m 2.554 ms - 72[0m
+request made to https://graph.microsoft.com/v1.0/me at: Mon Jan 15 2024 11:41:08 GMT+0530 (India Standard Time)
+[0mGET /users/profile [36m304[0m 589.865 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.129 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 0.409 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 10.652 ms - 1313[0m
+request made to https://graph.microsoft.com/v1.0/me at: Mon Jan 15 2024 11:43:16 GMT+0530 (India Standard Time)
+[0mGET /users/profile [36m304[0m 287.653 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.197 ms - -[0m
+[0mGET / [36m304[0m 4.246 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 2.132 ms - -[0m
+[0mGET /users/id [36m304[0m 2.336 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 2.198 ms - -[0m
+[0mGET /users/id [36m304[0m 3.127 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 0.849 ms - -[0m
+[0mGET /users/id [36m304[0m 3.757 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 0.804 ms - -[0m
+[0mGET / [36m304[0m 4.166 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.494 ms - -[0m
+[0mGET /users/id [36m304[0m 4.100 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.106 ms - -[0m
+[0mGET / [36m304[0m 1046.553 ms - -[0m
+[0mGET /stylesheets/style.css [36m304[0m 2.263 ms - -[0m
+[Mon, 15 Jan 2024 10:00:18 GMT] : @azure/msal-node@1.17.3 : Info - getAuthCodeUrl called
+[Mon, 15 Jan 2024 10:00:18 GMT] : @azure/msal-node@1.17.3 : Verbose - initializeRequestScopes called
+[Mon, 15 Jan 2024 10:00:18 GMT] : [cc0d4ea7-5985-4b61-be97-1823800a93a5] : @azure/msal-node@1.17.3 : Verbose - buildOauthClientConfiguration called
+[Mon, 15 Jan 2024 10:00:18 GMT] : [cc0d4ea7-5985-4b61-be97-1823800a93a5] : @azure/msal-node@1.17.3 : Verbose - building oauth client configuration with the authority: https://login.microsoftonline.com/42b59992-e3b0-4b6c-8771-1787a0d29a27
+[Mon, 15 Jan 2024 10:00:18 GMT] : [cc0d4ea7-5985-4b61-be97-1823800a93a5] : @azure/msal-node@1.17.3 : Verbose - createAuthority called
+[Mon, 15 Jan 2024 10:00:18 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to get cloud discovery metadata in the config
+[Mon, 15 Jan 2024 10:00:18 GMT] : @azure/msal-node@1.17.3 : Verbose - The cloud discovery metadata has been provided as a network response, in the config.
+[Mon, 15 Jan 2024 10:00:18 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to parse the cloud discovery metadata.
+[Mon, 15 Jan 2024 10:00:18 GMT] : @azure/msal-node@1.17.3 : Verbose - Parsed the cloud discovery metadata.
+[Mon, 15 Jan 2024 10:00:18 GMT] : @azure/msal-node@1.17.3 : Verbose - There is returnable metadata attached to the parsed cloud discovery metadata.
+[Mon, 15 Jan 2024 10:00:18 GMT] : @azure/msal-node@1.17.3 : Verbose - Found cloud discovery metadata in the config.
+[Mon, 15 Jan 2024 10:00:18 GMT] : [cc0d4ea7-5985-4b61-be97-1823800a93a5] : @azure/msal-node@1.17.3 : Verbose - Auth code client created
+[0mGET /auth/signin [36m302[0m 646.365 ms - 1268[0m
+[Mon, 15 Jan 2024 10:00:39 GMT] : @azure/msal-node@1.17.3 : Info - acquireTokenByCode called
+[Mon, 15 Jan 2024 10:00:39 GMT] : @azure/msal-node@1.17.3 : Info - acquireTokenByCode - validating state
+[Mon, 15 Jan 2024 10:00:39 GMT] : @azure/msal-node@1.17.3 : Verbose - initializeRequestScopes called
+[Mon, 15 Jan 2024 10:00:39 GMT] : [45cb88c5-4aa5-4b54-b3f3-7fa1e38b2d10] : @azure/msal-node@1.17.3 : Verbose - buildOauthClientConfiguration called
+[Mon, 15 Jan 2024 10:00:39 GMT] : [45cb88c5-4aa5-4b54-b3f3-7fa1e38b2d10] : @azure/msal-node@1.17.3 : Verbose - building oauth client configuration with the authority: https://login.microsoftonline.com/42b59992-e3b0-4b6c-8771-1787a0d29a27
+[Mon, 15 Jan 2024 10:00:39 GMT] : [45cb88c5-4aa5-4b54-b3f3-7fa1e38b2d10] : @azure/msal-node@1.17.3 : Verbose - createAuthority called
+[Mon, 15 Jan 2024 10:00:39 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to get cloud discovery metadata in the config
+[Mon, 15 Jan 2024 10:00:39 GMT] : @azure/msal-node@1.17.3 : Verbose - The cloud discovery metadata has been provided as a network response, in the config.
+[Mon, 15 Jan 2024 10:00:39 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to parse the cloud discovery metadata.
+[Mon, 15 Jan 2024 10:00:39 GMT] : @azure/msal-node@1.17.3 : Verbose - Parsed the cloud discovery metadata.
+[Mon, 15 Jan 2024 10:00:39 GMT] : @azure/msal-node@1.17.3 : Verbose - There is returnable metadata attached to the parsed cloud discovery metadata.
+[Mon, 15 Jan 2024 10:00:39 GMT] : @azure/msal-node@1.17.3 : Verbose - Found cloud discovery metadata in the config.
+[Mon, 15 Jan 2024 10:00:39 GMT] : [45cb88c5-4aa5-4b54-b3f3-7fa1e38b2d10] : @azure/msal-node@1.17.3 : Verbose - Auth code client created
+[Mon, 15 Jan 2024 10:00:39 GMT] : [45cb88c5-4aa5-4b54-b3f3-7fa1e38b2d10] : @azure/msal-common@13.1.0 : Info - in acquireToken call in auth-code client
+[Mon, 15 Jan 2024 10:00:40 GMT] : @azure/msal-node@1.17.3 : Info - getTokenCache called
+[0mPOST /auth/redirect [36m302[0m 943.651 ms - 46[0m
+[0mGET / [32m200[0m 20.369 ms - 433[0m
+[0mGET /stylesheets/style.css [36m304[0m 0.892 ms - -[0m
+[Mon, 15 Jan 2024 10:00:47 GMT] : @azure/msal-node@1.17.3 : Info - getTokenCache called
+[Mon, 15 Jan 2024 10:00:47 GMT] : @azure/msal-node@1.17.3 : Verbose - initializeRequestScopes called
+[Mon, 15 Jan 2024 10:00:47 GMT] : [59442e44-10ad-494d-a66e-1995d5bf68a5] : @azure/msal-node@1.17.3 : Verbose - buildOauthClientConfiguration called
+[Mon, 15 Jan 2024 10:00:47 GMT] : [59442e44-10ad-494d-a66e-1995d5bf68a5] : @azure/msal-node@1.17.3 : Verbose - building oauth client configuration with the authority: https://login.microsoftonline.com/42b59992-e3b0-4b6c-8771-1787a0d29a27
+[Mon, 15 Jan 2024 10:00:47 GMT] : [59442e44-10ad-494d-a66e-1995d5bf68a5] : @azure/msal-node@1.17.3 : Verbose - createAuthority called
+[Mon, 15 Jan 2024 10:00:47 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to get cloud discovery metadata in the config
+[Mon, 15 Jan 2024 10:00:47 GMT] : @azure/msal-node@1.17.3 : Verbose - The cloud discovery metadata has been provided as a network response, in the config.
+[Mon, 15 Jan 2024 10:00:47 GMT] : @azure/msal-node@1.17.3 : Verbose - Attempting to parse the cloud discovery metadata.
+[Mon, 15 Jan 2024 10:00:47 GMT] : @azure/msal-node@1.17.3 : Verbose - Parsed the cloud discovery metadata.
+[Mon, 15 Jan 2024 10:00:47 GMT] : @azure/msal-node@1.17.3 : Verbose - There is returnable metadata attached to the parsed cloud discovery metadata.
+[Mon, 15 Jan 2024 10:00:47 GMT] : @azure/msal-node@1.17.3 : Verbose - Found cloud discovery metadata in the config.
+[Mon, 15 Jan 2024 10:00:47 GMT] : [59442e44-10ad-494d-a66e-1995d5bf68a5] : @azure/msal-node@1.17.3 : Verbose - Silent flow client created
+[Mon, 15 Jan 2024 10:00:47 GMT] : @azure/msal-common@13.1.0 : Info - CacheManager:getIdToken - Returning id token
+[Mon, 15 Jan 2024 10:00:47 GMT] : @azure/msal-common@13.1.0 : Info - CacheManager:getAccessToken - Returning access token
+[Mon, 15 Jan 2024 10:00:47 GMT] : @azure/msal-common@13.1.0 : Info - CacheManager:getRefreshToken - returning refresh token
+[Mon, 15 Jan 2024 10:00:47 GMT] : @azure/msal-node@1.17.3 : Info - getTokenCache called
+[0mGET /auth/acquireToken [36m302[0m 12.882 ms - 72[0m
+Request made to https://graph.microsoft.com/v1.0/me at: Mon Jan 15 2024 15:30:47 GMT+0530 (India Standard Time)
+{
+  '@odata.context': 'https://graph.microsoft.com/v1.0/$metadata#users/$entity',
+  businessPhones: [],
+  displayName: 'Shubham196Outlook',
+  givenName: null,
+  jobTitle: null,
+  mail: 'shubhampatel196@outlook.com',
+  mobilePhone: null,
+  officeLocation: null,
+  preferredLanguage: null,
+  surname: null,
+  userPrincipalName: 'shubhampatel196_outlook.com#EXT#@shubhampatel9561outlook.onmicrosoft.com',
+  id: '853f3ab0-7107-4333-be3d-446a4bf61839'
+}
+Request made to https://graph.microsoft.com/v1.0/me/events at: Mon Jan 15 2024 15:30:48 GMT+0530 (India Standard Time)
+[0mGET /users/profile [31m500[0m 2980.132 ms - 682[0m
+[0mGET /stylesheets/style.css [36m304[0m 1.265 ms - -[0m

@@ -1,0 +1,4 @@
+2024-01-15 10:12:05 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\shubh\Downloads\ms-identity-node-main (1)\ms-identity-node-main\App\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\shubh\Downloads\ms-identity-node-main (1)\ms-identity-node-main\App\routes\auth.js" --scriptoptions= --log "Hello World wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-15 10:12:05 - Started 21416
+2024-01-15 10:13:50 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\shubh\Downloads\ms-identity-node-main (1)\ms-identity-node-main\App\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\shubh\Downloads\ms-identity-node-main (1)\ms-identity-node-main\App\routes\auth.js" --scriptoptions= --log "Hello World wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-15 10:13:50 - Started 12168

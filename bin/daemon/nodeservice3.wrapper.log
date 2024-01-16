@@ -1,0 +1,4 @@
+2024-01-15 11:10:44 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\Appspace\Rawcode\ms-identity-node-final\App\node_modules\node-windows\lib\wrapper.js --file D:\Appspace\Rawcode\ms-identity-node-final\App\bin\www.js --scriptoptions= --log "nodeservice3 wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-15 11:10:44 - Started 6928
+2024-01-15 15:27:48 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\Appspace\Rawcode\ms-identity-node-final\App\node_modules\node-windows\lib\wrapper.js --file D:\Appspace\Rawcode\ms-identity-node-final\App\bin\www.js --scriptoptions= --log "nodeservice3 wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-15 15:27:48 - Started 6852

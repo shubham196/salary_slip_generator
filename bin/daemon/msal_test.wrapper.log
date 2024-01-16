@@ -1,0 +1,50 @@
+2024-01-15 11:08:23 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Appspace\Rawcode\ms-identity-node-final\App\node_modules\node-windows\lib\wrapper.js --file D:\Appspace\Rawcode\ms-identity-node-final\App\bin\www --scriptoptions= --log "MSAL_Test wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-15 11:08:23 - Started 13676
+2024-01-15 11:10:05 - Stopping msal_test.exe
+2024-01-15 11:10:05 - ProcessKill 13676
+2024-01-15 11:10:05 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-01-15 11:10:44 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Appspace\Rawcode\ms-identity-node-final\App\node_modules\node-windows\lib\wrapper.js --file D:\Appspace\Rawcode\ms-identity-node-final\App\bin\www --scriptoptions= --log "MSAL_Test wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-15 11:10:44 - Started 6848
+2024-01-15 11:11:44 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Appspace\Rawcode\ms-identity-node-final\App\node_modules\node-windows\lib\wrapper.js --file D:\Appspace\Rawcode\ms-identity-node-final\App\bin\www --scriptoptions= --log "MSAL_Test wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-15 11:11:44 - Started 14728
+2024-01-15 11:45:57 - Stopping msal_test.exe
+2024-01-15 11:45:57 - ProcessKill 14728
+2024-01-15 11:45:58 - Found child process: 14520 Name: conhost.exe
+2024-01-15 11:45:58 - Found child process: 9928 Name: node.exe
+2024-01-15 11:45:58 - Stopping process 14520
+2024-01-15 11:45:58 - Send SIGINT 14520
+2024-01-15 11:45:58 - SIGINT to 14520 failed - Killing as fallback
+2024-01-15 11:45:58 - Stopping process 9928
+2024-01-15 11:45:58 - Send SIGINT 9928
+2024-01-15 11:45:58 - SIGINT to 9928 failed - Killing as fallback
+2024-01-15 11:45:58 - Stopping process 14728
+2024-01-15 11:45:58 - Send SIGINT 14728
+2024-01-15 11:45:58 - SIGINT to 14728 failed - Killing as fallback
+2024-01-15 11:45:58 - Finished msal_test.exe
+2024-01-15 15:27:48 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Appspace\Rawcode\ms-identity-node-final\App\node_modules\node-windows\lib\wrapper.js --file D:\Appspace\Rawcode\ms-identity-node-final\App\bin\www --scriptoptions= --log "MSAL_Test wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-15 15:27:48 - Started 6828
+2024-01-15 15:33:37 - Stopping msal_test.exe
+2024-01-15 15:33:37 - ProcessKill 6828
+2024-01-15 15:33:37 - Found child process: 7012 Name: conhost.exe
+2024-01-15 15:33:37 - Found child process: 3828 Name: node.exe
+2024-01-15 15:33:37 - Stopping process 7012
+2024-01-15 15:33:37 - Send SIGINT 7012
+2024-01-15 15:33:38 - SIGINT to 7012 failed - Killing as fallback
+2024-01-15 15:33:38 - Stopping process 3828
+2024-01-15 15:33:38 - Send SIGINT 3828
+2024-01-15 15:33:38 - SIGINT to 3828 failed - Killing as fallback
+2024-01-15 15:33:38 - Stopping process 6828
+2024-01-15 15:33:38 - Send SIGINT 6828
+2024-01-15 15:33:38 - SIGINT to 6828 failed - Killing as fallback
+2024-01-15 15:33:38 - Finished msal_test.exe

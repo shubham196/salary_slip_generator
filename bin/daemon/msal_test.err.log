@@ -1,0 +1,16 @@
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Error making API request to https://graph.microsoft.com/v1.0/me/events: {
+  error: {
+    code: 'AuthOMMissingRequiredPermissions',
+    message: "The AadGuestPft token doesn't contain the permissions required by the target API for calling app '00000003-0000-0000-c000-000000000000'.",
+    innerError: {
+      oAuthEventOperationId: '5738a1b6-386a-4141-9c62-c6aab2782686',
+      oAuthEventcV: 'aXEzC3X7wCk5Zr5WbCd8Vw.1.1',
+      errorUrl: 'https://aka.ms/autherrors#error-InvalidGrant',
+      requestId: 'ae34f03d-8400-4196-89e8-dc8fab23b81a',
+      date: '2024-01-15T10:00:52'
+    }
+  }
+}
