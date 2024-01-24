@@ -10,8 +10,6 @@ lerna-debug.log*
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
-#Credentials 
-.env.dev
 # Runtime data
 pids
 *.pid
@@ -43,7 +41,6 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
-Old/
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 
@@ -70,7 +67,6 @@ web_modules/
 
 # Output of 'npm pack'
 *.tgz
-*.zip
 # Yarn Integrity file
 .yarn-integrity
 

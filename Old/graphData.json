@@ -1,0 +1,738 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('shubhampatel196%40outlook.com')/events",
+  "value": [
+    {
+      "@odata.etag": "W/\"fLiXM+2G8E2OCQ0Z76THbQAAIKQnRQ==\"",
+      "id": "AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgENAAAAfLiXM_2G8E2OCQ0Z76THbQAAACCrzZ0AAAA=",
+      "createdDateTime": "2024-01-16T11:32:42.6513267Z",
+      "lastModifiedDateTime": "2024-01-16T13:28:46.2961304Z",
+      "changeKey": "fLiXM+2G8E2OCQ0Z76THbQAAIKQnRQ==",
+      "categories": [],
+      "transactionId": "c34b226e-eb84-899b-4d94-37b7d59153eb",
+      "originalStartTimeZone": "India Standard Time",
+      "originalEndTimeZone": "India Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E00800000000068DFFB76F48DA010000000000000000100000001A17923721F0E5418851C63B46078769",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": true,
+      "hasAttachments": false,
+      "subject": "Test Node Event 1 - Available",
+      "bodyPreview": "",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": true,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "busy",
+      "type": "singleInstance",
+      "webLink": "https://outlook.live.com/owa/?itemid=AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM%2B2G8E2OCQ0Z76THbQAAAgENAAAAfLiXM%2B2G8E2OCQ0Z76THbQAAACCrzZ0AAAA%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "isOnlineMeeting": false,
+      "onlineMeetingProvider": "unknown",
+      "allowNewTimeProposals": true,
+      "occurrenceId": null,
+      "isDraft": false,
+      "hideAttendees": false,
+      "responseStatus": {
+        "response": "organizer",
+        "time": "0001-01-01T00:00:00Z"
+      },
+      "body": { "contentType": "html", "content": "" },
+      "start": {
+        "dateTime": "2024-01-16T21:00:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "end": {
+        "dateTime": "2024-01-16T21:30:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "location": {
+        "displayName": "",
+        "locationType": "default",
+        "uniqueIdType": "unknown",
+        "address": {},
+        "coordinates": {}
+      },
+      "locations": [],
+      "recurrence": null,
+      "attendees": [],
+      "organizer": {
+        "emailAddress": {
+          "name": "Shubham Patel",
+          "address": "shubhampatel196@outlook.com"
+        }
+      },
+      "onlineMeeting": null,
+      "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('shubhampatel196@outlook.com')/calendars('AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgEGAAAAfLiXM_2G8E2OCQ0Z76THbQAAAByy29QAAAA=')/$ref",
+      "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('shubhampatel196@outlook.com')/calendars('AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgEGAAAAfLiXM_2G8E2OCQ0Z76THbQAAAByy29QAAAA=')"
+    },
+    {
+      "@odata.etag": "W/\"fLiXM+2G8E2OCQ0Z76THbQAAHKs/mQ==\"",
+      "id": "AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgENAAAAfLiXM_2G8E2OCQ0Z76THbQAAAA1LvVEAAAA=",
+      "createdDateTime": "2024-01-04T08:32:25.362525Z",
+      "lastModifiedDateTime": "2024-01-10T16:04:21.1009798Z",
+      "changeKey": "fLiXM+2G8E2OCQ0Z76THbQAAHKs/mQ==",
+      "categories": [],
+      "transactionId": null,
+      "originalStartTimeZone": "India Standard Time",
+      "originalEndTimeZone": "India Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E00800000000405C5B9A163FDA0100000000000000001000000085B00872CF530946967D6D125D27D859",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "Upcoming 1",
+      "bodyPreview": "",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": true,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "tentative",
+      "type": "singleInstance",
+      "webLink": "https://outlook.live.com/owa/?itemid=AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM%2B2G8E2OCQ0Z76THbQAAAgENAAAAfLiXM%2B2G8E2OCQ0Z76THbQAAAA1LvVEAAAA%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "isOnlineMeeting": false,
+      "onlineMeetingProvider": "unknown",
+      "allowNewTimeProposals": true,
+      "occurrenceId": null,
+      "isDraft": false,
+      "hideAttendees": false,
+      "responseStatus": { "response": "none", "time": "0001-01-01T00:00:00Z" },
+      "body": {
+        "contentType": "html",
+        "content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"ProgId\" content=\"Word.Document\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15\">\r\n<meta name=\"Originator\" content=\"Microsoft Word 15\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0cm;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",sans-serif}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:\"Calibri\",sans-serif;\r\n\tcolor:windowtext}\r\n.MsoChpDefault\r\n\t{font-family:\"Calibri\",sans-serif}\r\n@page WordSection1\r\n\t{margin:72.0pt 72.0pt 72.0pt 72.0pt}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body lang=\"EN-GB\" link=\"#0563C1\" vlink=\"#954F72\" style=\"word-wrap:break-word\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\">&nbsp;</p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+      },
+      "start": {
+        "dateTime": "2024-01-04T15:30:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "end": {
+        "dateTime": "2024-01-04T16:00:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "location": {
+        "displayName": "",
+        "locationType": "default",
+        "uniqueIdType": "unknown",
+        "address": {},
+        "coordinates": {}
+      },
+      "locations": [],
+      "recurrence": null,
+      "attendees": [
+        {
+          "type": "required",
+          "status": { "response": "none", "time": "0001-01-01T00:00:00Z" },
+          "emailAddress": {
+            "name": "shubhampatel196@outlook.com",
+            "address": "shubhampatel196@outlook.com"
+          }
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "Shubham Patel",
+          "address": "shubhampatel196@outlook.com"
+        }
+      },
+      "onlineMeeting": null,
+      "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('shubhampatel196@outlook.com')/calendars('AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgEGAAAAfLiXM_2G8E2OCQ0Z76THbQAAAByy29QAAAA=')/$ref",
+      "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('shubhampatel196@outlook.com')/calendars('AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgEGAAAAfLiXM_2G8E2OCQ0Z76THbQAAAByy29QAAAA=')"
+    },
+    {
+      "@odata.etag": "W/\"fLiXM+2G8E2OCQ0Z76THbQAAGA/9+A==\"",
+      "id": "AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgENAAAAfLiXM_2G8E2OCQ0Z76THbQAAAA1LvVAAAAA=",
+      "createdDateTime": "2024-01-04T08:29:48.1089478Z",
+      "lastModifiedDateTime": "2024-01-04T08:31:57.0669083Z",
+      "changeKey": "fLiXM+2G8E2OCQ0Z76THbQAAGA/9+A==",
+      "categories": [],
+      "transactionId": null,
+      "originalStartTimeZone": "India Standard Time",
+      "originalEndTimeZone": "India Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E00800000000F024A145163FDA010000000000000000100000002A1063F8438EAE48AF8BBD1C8AEC9866",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "Meeting new year",
+      "bodyPreview": "",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": true,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "oof",
+      "type": "singleInstance",
+      "webLink": "https://outlook.live.com/owa/?itemid=AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM%2B2G8E2OCQ0Z76THbQAAAgENAAAAfLiXM%2B2G8E2OCQ0Z76THbQAAAA1LvVAAAAA%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "isOnlineMeeting": false,
+      "onlineMeetingProvider": "unknown",
+      "allowNewTimeProposals": true,
+      "occurrenceId": null,
+      "isDraft": false,
+      "hideAttendees": false,
+      "responseStatus": { "response": "none", "time": "0001-01-01T00:00:00Z" },
+      "body": {
+        "contentType": "html",
+        "content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"ProgId\" content=\"Word.Document\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15\">\r\n<meta name=\"Originator\" content=\"Microsoft Word 15\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0cm;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",sans-serif}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:\"Calibri\",sans-serif;\r\n\tcolor:windowtext}\r\n.MsoChpDefault\r\n\t{font-family:\"Calibri\",sans-serif}\r\n@page WordSection1\r\n\t{margin:72.0pt 72.0pt 72.0pt 72.0pt}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body lang=\"EN-GB\" link=\"#0563C1\" vlink=\"#954F72\" style=\"word-wrap:break-word\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\">&nbsp;</p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+      },
+      "start": {
+        "dateTime": "2024-01-04T14:00:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "end": {
+        "dateTime": "2024-01-04T14:30:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "location": {
+        "displayName": "",
+        "locationType": "default",
+        "uniqueIdType": "unknown",
+        "address": {},
+        "coordinates": {}
+      },
+      "locations": [],
+      "recurrence": null,
+      "attendees": [
+        {
+          "type": "required",
+          "status": { "response": "none", "time": "0001-01-01T00:00:00Z" },
+          "emailAddress": {
+            "name": "shubhampatel196@outlook.com",
+            "address": "shubhampatel196@outlook.com"
+          }
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "Shubham Patel",
+          "address": "shubhampatel196@outlook.com"
+        }
+      },
+      "onlineMeeting": null,
+      "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('shubhampatel196@outlook.com')/calendars('AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgEGAAAAfLiXM_2G8E2OCQ0Z76THbQAAAByy29QAAAA=')/$ref",
+      "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('shubhampatel196@outlook.com')/calendars('AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgEGAAAAfLiXM_2G8E2OCQ0Z76THbQAAAByy29QAAAA=')"
+    },
+    {
+      "@odata.etag": "W/\"fLiXM+2G8E2OCQ0Z76THbQAAGA/0mg==\"",
+      "id": "AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgENAAAAfLiXM_2G8E2OCQ0Z76THbQAAAA1LvU4AAAA=",
+      "createdDateTime": "2024-01-04T05:58:45.0145811Z",
+      "lastModifiedDateTime": "2024-01-04T06:24:58.6113304Z",
+      "changeKey": "fLiXM+2G8E2OCQ0Z76THbQAAGA/0mg==",
+      "categories": [],
+      "transactionId": null,
+      "originalStartTimeZone": "India Standard Time",
+      "originalEndTimeZone": "India Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E00800000000F088EB29013FDA0100000000000000001000000010B4E05B4E1A08428343160514A16262",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "4th meeting",
+      "bodyPreview": "",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": true,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "oof",
+      "type": "singleInstance",
+      "webLink": "https://outlook.live.com/owa/?itemid=AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM%2B2G8E2OCQ0Z76THbQAAAgENAAAAfLiXM%2B2G8E2OCQ0Z76THbQAAAA1LvU4AAAA%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "isOnlineMeeting": false,
+      "onlineMeetingProvider": "unknown",
+      "allowNewTimeProposals": true,
+      "occurrenceId": null,
+      "isDraft": false,
+      "hideAttendees": false,
+      "responseStatus": { "response": "none", "time": "0001-01-01T00:00:00Z" },
+      "body": {
+        "contentType": "html",
+        "content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"ProgId\" content=\"Word.Document\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15\">\r\n<meta name=\"Originator\" content=\"Microsoft Word 15\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0cm;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",sans-serif}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:\"Calibri\",sans-serif;\r\n\tcolor:windowtext}\r\n.MsoChpDefault\r\n\t{font-family:\"Calibri\",sans-serif}\r\n@page WordSection1\r\n\t{margin:72.0pt 72.0pt 72.0pt 72.0pt}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body lang=\"EN-GB\" link=\"#0563C1\" vlink=\"#954F72\" style=\"word-wrap:break-word\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\">&nbsp;</p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+      },
+      "start": {
+        "dateTime": "2024-01-04T12:00:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "end": {
+        "dateTime": "2024-01-04T12:30:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "location": {
+        "displayName": "",
+        "locationType": "default",
+        "uniqueIdType": "unknown",
+        "address": {},
+        "coordinates": {}
+      },
+      "locations": [],
+      "recurrence": null,
+      "attendees": [
+        {
+          "type": "required",
+          "status": { "response": "none", "time": "0001-01-01T00:00:00Z" },
+          "emailAddress": {
+            "name": "shubhampatel196@outlook.com",
+            "address": "shubhampatel196@outlook.com"
+          }
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "Shubham Patel",
+          "address": "shubhampatel196@outlook.com"
+        }
+      },
+      "onlineMeeting": null,
+      "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('shubhampatel196@outlook.com')/calendars('AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgEGAAAAfLiXM_2G8E2OCQ0Z76THbQAAAByy29QAAAA=')/$ref",
+      "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('shubhampatel196@outlook.com')/calendars('AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgEGAAAAfLiXM_2G8E2OCQ0Z76THbQAAAByy29QAAAA=')"
+    },
+    {
+      "@odata.etag": "W/\"fLiXM+2G8E2OCQ0Z76THbQAAFyctvQ==\"",
+      "id": "AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgENAAAAfLiXM_2G8E2OCQ0Z76THbQAAAA1LvU0AAAA=",
+      "createdDateTime": "2024-01-02T11:01:30.5032791Z",
+      "lastModifiedDateTime": "2024-01-02T11:21:33.6067342Z",
+      "changeKey": "fLiXM+2G8E2OCQ0Z76THbQAAFyctvQ==",
+      "categories": [],
+      "transactionId": null,
+      "originalStartTimeZone": "India Standard Time",
+      "originalEndTimeZone": "India Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E0080000000000D81C21993DDA010000000000000000100000000950B442047D3F46B3016E611BABFE7C",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "sdd",
+      "bodyPreview": "",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": true,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "busy",
+      "type": "singleInstance",
+      "webLink": "https://outlook.live.com/owa/?itemid=AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM%2B2G8E2OCQ0Z76THbQAAAgENAAAAfLiXM%2B2G8E2OCQ0Z76THbQAAAA1LvU0AAAA%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "isOnlineMeeting": false,
+      "onlineMeetingProvider": "unknown",
+      "allowNewTimeProposals": true,
+      "occurrenceId": null,
+      "isDraft": false,
+      "hideAttendees": false,
+      "responseStatus": { "response": "none", "time": "0001-01-01T00:00:00Z" },
+      "body": {
+        "contentType": "html",
+        "content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"ProgId\" content=\"Word.Document\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15\">\r\n<meta name=\"Originator\" content=\"Microsoft Word 15\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0cm;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",sans-serif}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:\"Calibri\",sans-serif;\r\n\tcolor:windowtext}\r\n.MsoChpDefault\r\n\t{font-family:\"Calibri\",sans-serif}\r\n@page WordSection1\r\n\t{margin:72.0pt 72.0pt 72.0pt 72.0pt}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body lang=\"EN-GB\" link=\"#0563C1\" vlink=\"#954F72\" style=\"word-wrap:break-word\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\">&nbsp;</p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+      },
+      "start": {
+        "dateTime": "2024-01-02T17:00:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "end": {
+        "dateTime": "2024-01-02T17:30:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "location": {
+        "displayName": "",
+        "locationType": "default",
+        "uniqueIdType": "unknown",
+        "address": {},
+        "coordinates": {}
+      },
+      "locations": [],
+      "recurrence": null,
+      "attendees": [
+        {
+          "type": "required",
+          "status": { "response": "none", "time": "0001-01-01T00:00:00Z" },
+          "emailAddress": {
+            "name": "shubhampatel196@outlook.com",
+            "address": "shubhampatel196@outlook.com"
+          }
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "Shubham Patel",
+          "address": "shubhampatel196@outlook.com"
+        }
+      },
+      "onlineMeeting": null,
+      "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('shubhampatel196@outlook.com')/calendars('AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgEGAAAAfLiXM_2G8E2OCQ0Z76THbQAAAByy29QAAAA=')/$ref",
+      "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('shubhampatel196@outlook.com')/calendars('AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgEGAAAAfLiXM_2G8E2OCQ0Z76THbQAAAByy29QAAAA=')"
+    },
+    {
+      "@odata.etag": "W/\"fLiXM+2G8E2OCQ0Z76THbQAAFkvyBg==\"",
+      "id": "AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgENAAAAfLiXM_2G8E2OCQ0Z76THbQAAAA1LvUsAAAA=",
+      "createdDateTime": "2024-01-01T10:35:59.4263605Z",
+      "lastModifiedDateTime": "2024-01-01T11:28:40.4491537Z",
+      "changeKey": "fLiXM+2G8E2OCQ0Z76THbQAAFkvyBg==",
+      "categories": [],
+      "transactionId": null,
+      "originalStartTimeZone": "India Standard Time",
+      "originalEndTimeZone": "India Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E00800000000F0B7975DCC3CDA010000000000000000100000006E2AF02F3662F74C8719FD6B5844B158",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "New Appspace Meeting ",
+      "bodyPreview": "",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": true,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "oof",
+      "type": "singleInstance",
+      "webLink": "https://outlook.live.com/owa/?itemid=AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM%2B2G8E2OCQ0Z76THbQAAAgENAAAAfLiXM%2B2G8E2OCQ0Z76THbQAAAA1LvUsAAAA%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "isOnlineMeeting": false,
+      "onlineMeetingProvider": "unknown",
+      "allowNewTimeProposals": true,
+      "occurrenceId": null,
+      "isDraft": false,
+      "hideAttendees": false,
+      "responseStatus": { "response": "none", "time": "0001-01-01T00:00:00Z" },
+      "body": {
+        "contentType": "html",
+        "content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"ProgId\" content=\"Word.Document\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15\">\r\n<meta name=\"Originator\" content=\"Microsoft Word 15\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0cm;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",sans-serif}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:\"Calibri\",sans-serif;\r\n\tcolor:windowtext}\r\n.MsoChpDefault\r\n\t{font-family:\"Calibri\",sans-serif}\r\n@page WordSection1\r\n\t{margin:72.0pt 72.0pt 72.0pt 72.0pt}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body lang=\"EN-GB\" link=\"#0563C1\" vlink=\"#954F72\" style=\"word-wrap:break-word\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\">&nbsp;</p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+      },
+      "start": {
+        "dateTime": "2024-01-01T16:00:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "end": {
+        "dateTime": "2024-01-01T16:30:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "location": {
+        "displayName": "",
+        "locationType": "default",
+        "uniqueIdType": "unknown",
+        "address": {},
+        "coordinates": {}
+      },
+      "locations": [],
+      "recurrence": null,
+      "attendees": [
+        {
+          "type": "required",
+          "status": { "response": "none", "time": "0001-01-01T00:00:00Z" },
+          "emailAddress": {
+            "name": "shubhampatel196@outlook.com",
+            "address": "shubhampatel196@outlook.com"
+          }
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "Shubham Patel",
+          "address": "shubhampatel196@outlook.com"
+        }
+      },
+      "onlineMeeting": null,
+      "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('shubhampatel196@outlook.com')/calendars('AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgEGAAAAfLiXM_2G8E2OCQ0Z76THbQAAAByy29QAAAA=')/$ref",
+      "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('shubhampatel196@outlook.com')/calendars('AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgEGAAAAfLiXM_2G8E2OCQ0Z76THbQAAAByy29QAAAA=')"
+    },
+    {
+      "@odata.etag": "W/\"fLiXM+2G8E2OCQ0Z76THbQAAFkvx8g==\"",
+      "id": "AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgENAAAAfLiXM_2G8E2OCQ0Z76THbQAAAA1LvUoAAAA=",
+      "createdDateTime": "2024-01-01T10:35:06.639602Z",
+      "lastModifiedDateTime": "2024-01-01T11:03:51.2144194Z",
+      "changeKey": "fLiXM+2G8E2OCQ0Z76THbQAAFkvx8g==",
+      "categories": [],
+      "transactionId": null,
+      "originalStartTimeZone": "India Standard Time",
+      "originalEndTimeZone": "India Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E00800000000B068593FCC3CDA01000000000000000010000000FD77CC6D5C18824CA1DBB1BB1460FDCA",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "New Year Meeting",
+      "bodyPreview": "",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": true,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "busy",
+      "type": "singleInstance",
+      "webLink": "https://outlook.live.com/owa/?itemid=AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM%2B2G8E2OCQ0Z76THbQAAAgENAAAAfLiXM%2B2G8E2OCQ0Z76THbQAAAA1LvUoAAAA%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "isOnlineMeeting": false,
+      "onlineMeetingProvider": "unknown",
+      "allowNewTimeProposals": true,
+      "occurrenceId": null,
+      "isDraft": false,
+      "hideAttendees": false,
+      "responseStatus": { "response": "none", "time": "0001-01-01T00:00:00Z" },
+      "body": {
+        "contentType": "html",
+        "content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"ProgId\" content=\"Word.Document\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15\">\r\n<meta name=\"Originator\" content=\"Microsoft Word 15\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0cm;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",sans-serif}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:\"Calibri\",sans-serif;\r\n\tcolor:windowtext}\r\n.MsoChpDefault\r\n\t{font-family:\"Calibri\",sans-serif}\r\n@page WordSection1\r\n\t{margin:72.0pt 72.0pt 72.0pt 72.0pt}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body lang=\"EN-GB\" link=\"#0563C1\" vlink=\"#954F72\" style=\"word-wrap:break-word\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\">&nbsp;</p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+      },
+      "start": {
+        "dateTime": "2024-01-01T15:00:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "end": {
+        "dateTime": "2024-01-01T15:30:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "location": {
+        "displayName": "",
+        "locationType": "default",
+        "uniqueIdType": "unknown",
+        "address": {},
+        "coordinates": {}
+      },
+      "locations": [],
+      "recurrence": null,
+      "attendees": [
+        {
+          "type": "required",
+          "status": { "response": "none", "time": "0001-01-01T00:00:00Z" },
+          "emailAddress": {
+            "name": "shubhampatel196@outlook.com",
+            "address": "shubhampatel196@outlook.com"
+          }
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "Shubham Patel",
+          "address": "shubhampatel196@outlook.com"
+        }
+      },
+      "onlineMeeting": null,
+      "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('shubhampatel196@outlook.com')/calendars('AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgEGAAAAfLiXM_2G8E2OCQ0Z76THbQAAAByy29QAAAA=')/$ref",
+      "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('shubhampatel196@outlook.com')/calendars('AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgEGAAAAfLiXM_2G8E2OCQ0Z76THbQAAAByy29QAAAA=')"
+    },
+    {
+      "@odata.etag": "W/\"fLiXM+2G8E2OCQ0Z76THbQAAD+ix6g==\"",
+      "id": "AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgENAAAAfLiXM_2G8E2OCQ0Z76THbQAAAA8rBnAAAAA=",
+      "createdDateTime": "2023-12-21T10:14:17.2697048Z",
+      "lastModifiedDateTime": "2023-12-22T07:32:33.9083074Z",
+      "changeKey": "fLiXM+2G8E2OCQ0Z76THbQAAD+ix6g==",
+      "categories": [],
+      "transactionId": "68fd4232-1c3e-ee6e-7274-4d58e1c8c940",
+      "originalStartTimeZone": "India Standard Time",
+      "originalEndTimeZone": "India Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E0080000000098C5A274F633DA0100000000000000001000000027E76C88A62F7545883259AA06F35C6F",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "dxfvsd",
+      "bodyPreview": "",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": true,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "busy",
+      "type": "singleInstance",
+      "webLink": "https://outlook.live.com/owa/?itemid=AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM%2B2G8E2OCQ0Z76THbQAAAgENAAAAfLiXM%2B2G8E2OCQ0Z76THbQAAAA8rBnAAAAA%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "isOnlineMeeting": false,
+      "onlineMeetingProvider": "unknown",
+      "allowNewTimeProposals": true,
+      "occurrenceId": null,
+      "isDraft": false,
+      "hideAttendees": false,
+      "responseStatus": {
+        "response": "organizer",
+        "time": "0001-01-01T00:00:00Z"
+      },
+      "body": { "contentType": "html", "content": "" },
+      "start": {
+        "dateTime": "2023-12-21T19:30:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "end": {
+        "dateTime": "2023-12-21T20:00:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "location": {
+        "displayName": "",
+        "locationType": "default",
+        "uniqueIdType": "unknown",
+        "address": {},
+        "coordinates": {}
+      },
+      "locations": [],
+      "recurrence": null,
+      "attendees": [],
+      "organizer": {
+        "emailAddress": {
+          "name": "Shubham Patel",
+          "address": "shubhampatel196@outlook.com"
+        }
+      },
+      "onlineMeeting": null,
+      "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('shubhampatel196@outlook.com')/calendars('AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgEGAAAAfLiXM_2G8E2OCQ0Z76THbQAAAByy29QAAAA=')/$ref",
+      "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('shubhampatel196@outlook.com')/calendars('AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgEGAAAAfLiXM_2G8E2OCQ0Z76THbQAAAByy29QAAAA=')"
+    },
+    {
+      "@odata.etag": "W/\"fLiXM+2G8E2OCQ0Z76THbQAAD+ix6Q==\"",
+      "id": "AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgENAAAAfLiXM_2G8E2OCQ0Z76THbQAAAA1LvUkAAAA=",
+      "createdDateTime": "2023-12-21T09:58:14.898922Z",
+      "lastModifiedDateTime": "2023-12-22T07:32:33.5718318Z",
+      "changeKey": "fLiXM+2G8E2OCQ0Z76THbQAAD+ix6Q==",
+      "categories": [],
+      "transactionId": null,
+      "originalStartTimeZone": "India Standard Time",
+      "originalEndTimeZone": "India Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E0080000000070D0064F2234DA0100000000000000001000000017005FA47F14A04382021A8C49C9B90A",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "AppAldarStatus2",
+      "bodyPreview": "",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": true,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "oof",
+      "type": "singleInstance",
+      "webLink": "https://outlook.live.com/owa/?itemid=AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM%2B2G8E2OCQ0Z76THbQAAAgENAAAAfLiXM%2B2G8E2OCQ0Z76THbQAAAA1LvUkAAAA%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "isOnlineMeeting": false,
+      "onlineMeetingProvider": "unknown",
+      "allowNewTimeProposals": true,
+      "occurrenceId": null,
+      "isDraft": false,
+      "hideAttendees": false,
+      "responseStatus": { "response": "none", "time": "0001-01-01T00:00:00Z" },
+      "body": {
+        "contentType": "html",
+        "content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"ProgId\" content=\"Word.Document\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15\">\r\n<meta name=\"Originator\" content=\"Microsoft Word 15\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0cm;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",sans-serif}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:\"Calibri\",sans-serif;\r\n\tcolor:windowtext}\r\n.MsoChpDefault\r\n\t{font-family:\"Calibri\",sans-serif}\r\n@page WordSection1\r\n\t{margin:72.0pt 72.0pt 72.0pt 72.0pt}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body lang=\"EN-GB\" link=\"#0563C1\" vlink=\"#954F72\" style=\"word-wrap:break-word\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\">&nbsp;</p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+      },
+      "start": {
+        "dateTime": "2023-12-21T17:00:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "end": {
+        "dateTime": "2023-12-21T17:30:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "location": {
+        "displayName": "",
+        "locationType": "default",
+        "uniqueIdType": "unknown",
+        "address": {},
+        "coordinates": {}
+      },
+      "locations": [],
+      "recurrence": null,
+      "attendees": [
+        {
+          "type": "required",
+          "status": { "response": "none", "time": "0001-01-01T00:00:00Z" },
+          "emailAddress": {
+            "name": "shubhampatel196@outlook.com",
+            "address": "shubhampatel196@outlook.com"
+          }
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "Shubham Patel",
+          "address": "shubhampatel196@outlook.com"
+        }
+      },
+      "onlineMeeting": null,
+      "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('shubhampatel196@outlook.com')/calendars('AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgEGAAAAfLiXM_2G8E2OCQ0Z76THbQAAAByy29QAAAA=')/$ref",
+      "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('shubhampatel196@outlook.com')/calendars('AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgEGAAAAfLiXM_2G8E2OCQ0Z76THbQAAAByy29QAAAA=')"
+    },
+    {
+      "@odata.etag": "W/\"fLiXM+2G8E2OCQ0Z76THbQAADyWIfg==\"",
+      "id": "AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgENAAAAfLiXM_2G8E2OCQ0Z76THbQAAAA1LvUcAAAA=",
+      "createdDateTime": "2023-12-21T09:49:19.9039443Z",
+      "lastModifiedDateTime": "2023-12-21T10:05:50.3708646Z",
+      "changeKey": "fLiXM+2G8E2OCQ0Z76THbQAADyWIfg==",
+      "categories": [],
+      "transactionId": null,
+      "originalStartTimeZone": "India Standard Time",
+      "originalEndTimeZone": "India Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E00800000000F06517072134DA010000000000000000100000007E2F5A6E8778F1418066225205D0FD21",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "AppTestAldarEvent",
+      "bodyPreview": "",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": true,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "tentative",
+      "type": "singleInstance",
+      "webLink": "https://outlook.live.com/owa/?itemid=AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM%2B2G8E2OCQ0Z76THbQAAAgENAAAAfLiXM%2B2G8E2OCQ0Z76THbQAAAA1LvUcAAAA%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "isOnlineMeeting": false,
+      "onlineMeetingProvider": "unknown",
+      "allowNewTimeProposals": true,
+      "occurrenceId": null,
+      "isDraft": false,
+      "hideAttendees": false,
+      "responseStatus": { "response": "none", "time": "0001-01-01T00:00:00Z" },
+      "body": {
+        "contentType": "html",
+        "content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"ProgId\" content=\"Word.Document\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15\">\r\n<meta name=\"Originator\" content=\"Microsoft Word 15\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0cm;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",sans-serif}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:\"Calibri\",sans-serif;\r\n\tcolor:windowtext}\r\n.MsoChpDefault\r\n\t{font-family:\"Calibri\",sans-serif}\r\n@page WordSection1\r\n\t{margin:72.0pt 72.0pt 72.0pt 72.0pt}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body lang=\"EN-GB\" link=\"#0563C1\" vlink=\"#954F72\" style=\"word-wrap:break-word\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\">&nbsp;</p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+      },
+      "start": {
+        "dateTime": "2023-12-21T14:30:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "end": {
+        "dateTime": "2023-12-21T15:00:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "location": {
+        "displayName": "",
+        "locationType": "default",
+        "uniqueIdType": "unknown",
+        "address": {},
+        "coordinates": {}
+      },
+      "locations": [],
+      "recurrence": null,
+      "attendees": [
+        {
+          "type": "required",
+          "status": { "response": "none", "time": "0001-01-01T00:00:00Z" },
+          "emailAddress": {
+            "name": "shubhampatel196@outlook.com",
+            "address": "shubhampatel196@outlook.com"
+          }
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "Shubham Patel",
+          "address": "shubhampatel196@outlook.com"
+        }
+      },
+      "onlineMeeting": null,
+      "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('shubhampatel196@outlook.com')/calendars('AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgEGAAAAfLiXM_2G8E2OCQ0Z76THbQAAAByy29QAAAA=')/$ref",
+      "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('shubhampatel196@outlook.com')/calendars('AQMkADAwATNiZmYAZC02ZTA3LTFmZGMtMDACLTAwCgBGAAADcVXPlBZSkEGounrpJhBhqAcAfLiXM_2G8E2OCQ0Z76THbQAAAgEGAAAAfLiXM_2G8E2OCQ0Z76THbQAAAByy29QAAAA=')"
+    }
+  ],
+  "@odata.nextLink": "https://graph.microsoft.com/v1.0/me/events?%24top=10&%24skip=10"
+}

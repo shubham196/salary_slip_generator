@@ -1,0 +1,67 @@
+{
+  "inputs": [
+    {
+      "name": "email",
+      "value": "",
+      "type": "textbox"
+    },
+    {
+      "name": "server",
+      "value": "",
+      "type": "textbox"
+    },
+    {
+      "name": "features",
+      "type": "checkbox",
+      "value": [
+        "interactive",
+        "cancellable",
+        "extendable",
+        "screensaver",
+        "deferCancel",
+        "mustStart",
+        "autoLogin"
+      ]
+    },
+    {
+      "name": "screensaverMode",
+      "value": "bounce",
+      "type": "dropdown"
+    },
+    {
+      "name": "refreshTimeout",
+      "value": "15",
+      "type": "textbox"
+    },
+    {
+      "name": "idleDuration",
+      "value": "1",
+      "type": "dropdown"
+    },
+    {
+      "name": "logoMain",
+      "value": [],
+      "type": "fileupload"
+    },
+    {
+      "name": "mainBackground",
+      "value": [],
+      "type": "fileupload"
+    },
+    {
+      "name": "screensaverBg",
+      "value": [],
+      "type": "fileupload"
+    },
+    {
+      "name": "lightapiusername",
+      "value": "admin",
+      "type": "textbox"
+    },
+    {
+      "name": "lightapipassword",
+      "value": "",
+      "type": "textbox"
+    }
+  ]
+}
