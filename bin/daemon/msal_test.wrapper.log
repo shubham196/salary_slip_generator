@@ -48,3 +48,21 @@ Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInter
 2024-01-15 15:33:38 - Send SIGINT 6828
 2024-01-15 15:33:38 - SIGINT to 6828 failed - Killing as fallback
 2024-01-15 15:33:38 - Finished msal_test.exe
+2024-01-17 18:42:12 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Appspace\Rawcode\ms-identity-node-final\App\node_modules\node-windows\lib\wrapper.js --file D:\Appspace\Rawcode\ms-identity-node-final\App\bin\www --scriptoptions= --log "MSAL_Test wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-17 18:42:12 - Started 21220
+2024-01-17 18:53:06 - Stopping msal_test.exe
+2024-01-17 18:53:06 - ProcessKill 21220
+2024-01-17 18:53:06 - Found child process: 15624 Name: conhost.exe
+2024-01-17 18:53:06 - Found child process: 19876 Name: node.exe
+2024-01-17 18:53:06 - Stopping process 15624
+2024-01-17 18:53:06 - Send SIGINT 15624
+2024-01-17 18:53:06 - SIGINT to 15624 failed - Killing as fallback
+2024-01-17 18:53:06 - Stopping process 19876
+2024-01-17 18:53:06 - Send SIGINT 19876
+2024-01-17 18:53:06 - SIGINT to 19876 failed - Killing as fallback
+2024-01-17 18:53:06 - Stopping process 21220
+2024-01-17 18:53:06 - Send SIGINT 21220
+2024-01-17 18:53:06 - SIGINT to 21220 failed - Killing as fallback
+2024-01-17 18:53:06 - Finished msal_test.exe
+2024-01-17 18:53:11 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Appspace\Rawcode\ms-identity-node-final\App\node_modules\node-windows\lib\wrapper.js --file D:\Appspace\Rawcode\ms-identity-node-final\App\bin\www --scriptoptions= --log "MSAL_Test wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-17 18:53:11 - Started 27312

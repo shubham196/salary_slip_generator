@@ -13,20 +13,21 @@ var axios = require('axios');
 async function fetch(endpoint, accessToken) {
     const options = {
         headers: {
-            Authorization: `Bearer ${accessToken}`,
-            // 'Prefer': 'outlook.timezone="India Standard Time"'
+            'Authorization': `Bearer ${accessToken}`,
+            'Prefer': 'outlook.timezone="India Standard Time"'
         }
     };
 
-    console.log(`request made to ${endpoint} at: & Access Token : ${accessToken}` + new Date().toString());
+    // console.log(`request made to ${endpoint} at: & Access Token : ${accessToken}` + new Date().toString());
 
     try {
         const response = await axios.get(endpoint, options);
         // console.log("Hey i am Response",response.data);
         return await response.data;
     } catch (error) {
-        console.log("Hey i am error",error);
+        // console.log("Hey i am Error",error);
         throw new Error(error);
+
     }
 }
 

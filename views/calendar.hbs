@@ -1,0 +1,23 @@
+<h1>Microsoft Graph API</h1>
+<h3>/me/calendarList endpoint response</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Calendar ID</th>
+            <th>View JSON</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each calendarIds}}
+        <tr>
+            <td>{{this}}</td>
+            <td>
+                <!-- Add a button for each entry with a unique ID -->
+                <button onclick="viewJson('{{this}}')">View JSON</button>
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+<br>
+<a href="/">Go back</a>

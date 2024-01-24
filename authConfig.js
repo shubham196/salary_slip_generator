@@ -26,15 +26,18 @@ const msalConfig = {
         }
     }
 }
+const userCalendarId = "";
 
 const REDIRECT_URI = process.env.REDIRECT_URI;
 const POST_LOGOUT_REDIRECT_URI = process.env.POST_LOGOUT_REDIRECT_URI;
 const GRAPH_ME_ENDPOINT = process.env.GRAPH_API_ENDPOINT + "v1.0/me/events";
-// const  GRAPH_CALENDAR_ENDPOINT = process.env.GRAPH_API_ENDPOINT + "me/calendar/events"
+const GRAPH_USER_CALENDAR_ENDPOINT = process.env.GRAPH_API_ENDPOINT + `v1.0/me/calendars/${userCalendarId}/events`;
+const  GRAPH_CALENDAR_ENDPOINT = process.env.GRAPH_API_ENDPOINT + "v1.0/me/calendars"
 module.exports = {
     msalConfig,
     REDIRECT_URI,
     POST_LOGOUT_REDIRECT_URI,
-    GRAPH_ME_ENDPOINT
-    // GRAPH_CALENDAR_ENDPOINT
+    GRAPH_ME_ENDPOINT,
+    GRAPH_USER_CALENDAR_ENDPOINT,
+    GRAPH_CALENDAR_ENDPOINT
 };

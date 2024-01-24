@@ -1,0 +1,108 @@
+<!-- Update your HTML template -->
+<h1>Calendar List</h1>
+<h3>/me/calendarList endpoint response</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Calendar Name</th>
+            {{!-- <th>Calendar ID</th> --}}
+            <th>Copy</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each calendarData}}
+        <tr>
+            <td>{{this.name}}</td>
+            {{!-- <td>{{this.id}}</td> --}}
+           <td>
+                <!-- Add a button for each entry with a unique ID -->
+                <button onclick="copyId('{{this.id}}')">Copy Calendar Id</button>
+                <!-- Add a button to include the ID in the /calendar request -->
+                {{!-- <button onclick="fetchCalendarData('{{this.id}}')">Fetch Calendar Data</button>
+                <button onclick="stopCalendarData('{{this.id}}')">Stop Sync</button> --}}
+                 {{!-- <button id="toggleButton" onclick="toggleSync('{{this.id}}')">Toggle Sync</button> --}}
+                 <button id="syncBtn" onclick="toggleSync(calendarId)">Start Sync</button>
+
+                <!-- Add a button for each entry with a unique ID -->
+                {{!-- <button onclick="toggleSync('{{this.id}}')">Toggle Sync</button> --}}
+         
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+<br>
+
+<!-- Add a button to toggle synchronization -->
+{{!-- <button onclick="toggleSync()">Toggle Sync</button> --}}
+
+<a href="/">Go back</a>
+
+<script>
+    // Add this JavaScript function to handle button click for fetching calendar data
+    {{!-- async function fetchCalendarData(calendarId) {
+        // Redirect to the /calendar route with the selected calendar ID
+        window.location.href = `calendar?ids=${calendarId}`;
+    }
+    async function stopCalendarData(calendarId) {
+        // Redirect to the /calendar route with the selected calendar ID
+        window.location.href = `calendar?ids=null`;
+    } --}}
+
+     // Initialize syncState with an empty object
+
+    // Function to toggle synchronization for a calendar
+   let syncState = {}; // You can use this object to keep track of the synchronization state for each calendar
+
+async function fetchCalendarData(calendarId) {
+    // Add the logic here to fetch calendar data for the selected calendarId
+    console.log("Fetching data for calendar: ", calendarId);
+}
+
+async function stopCalendarData(calendarId) {
+    // Add the logic here to stop fetching calendar data for the selected calendarId
+    console.log("Stopping data for calendar: ", calendarId);
+}
+
+function toggleSync(calendarId) {
+    let button = document.getElementById("syncBtn");
+
+    if (syncState[calendarId]) {
+        // If the calendar data is being fetched, stop fetching the data
+        stopCalendarData(calendarId);
+        button.textContent = "Start Sync";
+        syncState[calendarId] = false;
+    } else {
+        // If the calendar data is not being fetched, start fetching the data
+        fetchCalendarData(calendarId);
+        button.textContent = "Stop Sync";
+        syncState[calendarId] = true;
+    }
+}
+
+    // Add this JavaScript function to handle button click for copying calendar ID
+    function copyId(calendarId) {
+        // Create a temporary input element
+        const tempInput = document.createElement("input");
+        
+        // Set the value of the input to the calendar ID
+        tempInput.value = calendarId;
+        
+        // Append the input element to the body
+        document.body.appendChild(tempInput);
+        
+        // Select the text in the input element
+        tempInput.select();
+        tempInput.setSelectionRange(0, 99999); /* For mobile devices */
+
+        // Copy the text to the clipboard
+        document.execCommand("copy");
+
+        // Remove the temporary input element
+        document.body.removeChild(tempInput);
+
+        // Optionally, you can provide some feedback to the user (e.g., show a tooltip or alert)
+        alert(`Calendar ID "${calendarId}" copied to clipboard!`);
+    }
+ 
+</script>
