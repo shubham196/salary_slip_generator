@@ -1,26 +1,39 @@
-<!-- Update your HTML template -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+<div class="sign-in-container">
+    <button class="button button-sign-in"><a href="/" style="color: white";>Go back</a>
+</button>
+</div>
 <h1>Calendar List</h1>
-<h3>/me/calendarList endpoint response</h3>
-<table>
+
+    <!-- Update your HTML template -->
+  <table class="table-container">
     <thead>
         <tr>
             <th>Calendar Name</th>
-            {{!-- <th>Calendar ID</th> --}}
-            <th>Copy</th>
+            <th>Calendar ID</th>
+            <th>Action</th>
         </tr>
     </thead>
     <tbody>
         {{#each calendarData}}
-        <tr>
-            <td>{{this.name}}</td>
+         <tr data-state="unsynced">
+            <td><h3>{{this.name}}</h3></td>
             {{!-- <td>{{this.id}}</td> --}}
-           <td>
-                <!-- Add a button for each entry with a unique ID -->
-                <button onclick="copyId('{{this.id}}')">Copy Calendar Id</button>
-                <!-- Add a button to include the ID in the /calendar request -->
-                 <button onclick="fetchCalendarData('{{this.id}}')">Fetch Calendar Data</button>
-                 <button onclick="stopCalendarData('{{this.id}}')">Stop Sync</button> 
-
+           <td><button id="syncBtn1" class="button button-copy" onclick="copyId('{{this.id}}')">Copy Calendar Id</button></td>
+            <td class="button-container">
+                 {{!-- <button onclick="copyId('{{this.id}}')">Copy Calendar Id</button> --}}
+                 <button id="stopBtn1" class="button button-sync" onclick="fetchCalendarData('{{this.id}}')">Sync </button> 
+                 <button id="stopBtn1" class="button button-stop" onclick="stopCalendarData('{{this.id}}')">Stop </button> 
+                {{!-- <button id="syncBtn2" class="button button-sync" onclick="toggleButtons(1)">Sync</button>
+                <button id="stopBtn1" class="button button-stop" style="display: none;" onclick="toggleButtons(5)">Stop</button> --}}
             </td>
         </tr>
         {{/each}}
@@ -28,9 +41,23 @@
 </table>
 <br>
 
-<a href="/">Go back</a>
 
 <script>
+      function toggleButtons(calendarId) {
+            const syncBtn = document.getElementById(`syncBtn${calendarId}`);
+            const stopBtn = document.getElementById(`stopBtn${calendarId}`);
+            const row = document.querySelector(`tr:nth-child(${calendarId})`);
+
+            if (row.getAttribute("data-state") === "unsynced") {
+                syncBtn.style.display = "none";
+                stopBtn.style.display = "inline-block";
+                row.setAttribute("data-state", "synced");
+            } else {
+                syncBtn.style.display = "inline-block";
+                stopBtn.style.display = "none";
+                row.setAttribute("data-state", "unsynced");
+            }
+        }
     async function fetchCalendarData(calendarId) {
     // Add the logic here to fetch calendar data for the selected calendarId
     console.log("Fetching data for calendar: ", calendarId);
@@ -40,7 +67,7 @@
     async function stopCalendarData(calendarId) {
         // Add the logic here to stop fetching calendar data for the selected calendarId
         console.log("Stopping data for calendar: ", calendarId);
-        window.location.href = `calendar?ids=null`;
+        window.location.href = `stopInterval?ids=${calendarId}`;
     }
     // Add this JavaScript function to handle button click for copying calendar ID
     function copyId(calendarId) {
@@ -68,3 +95,9 @@
     }
  
 </script>
+
+</body>
+</html>
+
+
+

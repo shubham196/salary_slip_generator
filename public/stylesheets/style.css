@@ -1,8 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+ font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 
-a {
-  color: #00B7FF;
+.container {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+  position: relative;
 }
+
+.container h2 {
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.table-container {
+  margin-top: 10px;
+  border-collapse: collapse;
+  width: 100%;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.table-container th,
+.table-container td {
+  padding: 18px;
+  text-align: center;
+}
+
+.table-container th {
+  background-color: black;
+      font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  font-style: normal;
+  color: white;
+}
+
+.table-container tr:nth-child(even) {
+  background: linear-gradient(
+    90deg,
+    #817a7a,
+    #ffffff
+  ); /* Gray to white gradient */
+}
+
+.table-container tr:nth-child(odd) {
+  background: linear-gradient(
+    90deg,
+    #ffffff,
+    #f2f2f2
+  ); /* White to gray gradient */
+}
+
+.table-container tr:hover {
+  background-color: #ddd;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.button-copy{
+  background: linear-gradient(90deg, #16368d, #2856df); /* Green gradient from #4caf50 to #2e7d32 */
+  color: white;
+  border-radius: 10px;
+  padding: 10px 35px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.button-sync {
+    background: linear-gradient(90deg, #4caf50, #2e7d32); /* Green gradient from #4caf50 to #2e7d32 */
+    color: white;
+    border-radius: 10px;
+    padding: 10px 35px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.button-stop {
+    background: linear-gradient(90deg, #f44336, #d32f2f); /* Red gradient from #f44336 to #d32f2f */
+    border-radius: 10px;
+    color: white;
+    padding: 10px 35px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Hover effect for .button-sync */
+.button-sync:hover {
+    background: linear-gradient(90deg, #2e7d32, #1d5e24); /* Darker green gradient for .button-sync on hover */
+}
+
+/* Hover effect for .button-stop */
+.button-stop:hover {
+    background: linear-gradient(90deg, #d32f2f, #9a2525); /* Darker red gradient for .button-stop on hover */
+}
+
+
+.button-sign-in {
+   background: linear-gradient(90deg, #008cba, #005a70); /* Gradient from #008cba to #005a70 */
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  border-radius: 15px;
+  margin-top: 20%;
+  padding: 15px 20px;
+  color: white;
+  border: none;
+}
+
+.button-sign-in:hover {
+    background: linear-gradient(90deg, #005a70, #00394a); /* Gradient from #005a70 to #00394a on hover */
+}
+.sign-in-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+

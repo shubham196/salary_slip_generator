@@ -1,0 +1,32 @@
+<service>
+	<id>outlookbackgroundservice.exe</id>
+	<name>Outlook Background Service</name>
+	<description>The nodejs.org example web server.</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<argument>--harmony</argument>
+	<argument>--max_old_space_size=4096</argument>
+	<argument>C:\Users\shubh\AppData\Roaming\nvm\v18.18.2\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>C:\inetpub\wwwroot\bin\www</argument>
+	<argument>--scriptoptions=</argument>
+	<argument>--log</argument>
+	<argument>Outlook Background Service wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.25</argument>
+	<argument>--wait</argument>
+	<argument>1</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>undefined</argument>
+	<logmode>rotate</logmode>
+	<stoptimeout>30sec</stoptimeout>
+	<serviceaccount>
+		<domain>SHUBHAM</domain>
+		<user>LocalSystem</user>
+		<password></password>
+	</serviceaccount>
+	<workingdirectory>C:\inetpub\wwwroot</workingdirectory>
+</service>

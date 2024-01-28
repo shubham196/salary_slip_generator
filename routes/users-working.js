@@ -65,6 +65,7 @@ router.get("/calendars", isAuthenticated, async function (req, res, next) {
 
     // Fetch calendar data from the Graph API
     try {
+      
       calendarList = await fetchGraphData(
         GRAPH_CALENDAR_ENDPOINT,
         req.session.accessToken
@@ -82,7 +83,7 @@ router.get("/calendars", isAuthenticated, async function (req, res, next) {
     // Separate arrays for IDs and names
     let calendarIds = calendarData.map((calendar) => calendar.id);
     let calendarNames = calendarData.map((calendar) => calendar.name);
-
+  
     // Render the 'profile' view with calendarIds and calendarNames
     res.render("profile", { calendarData });
   } catch (error) {
@@ -90,13 +91,13 @@ router.get("/calendars", isAuthenticated, async function (req, res, next) {
   }
 });
 
-let intervalId='!null'; // Declare the interval ID variable
+let intervalId='null'; // Declare the interval ID variable
 
 router.get("/calendar", isAuthenticated, async function (req, res, next) {
 
   // req.query.ids = null;
     try {
-      if(req.query.ids !== 'null'){
+     
       // console.log("%%%%%%%%%%ID%%%%%%%%%",req.query.ids);
       
       console.log("True",req.query.ids);
@@ -127,11 +128,12 @@ router.get("/calendar", isAuthenticated, async function (req, res, next) {
       // Wait for all promises to resolve
       const calendarDataArray = await Promise.all(calendarDataPromises);
       // clearInterval(intervalId);
+      console.log("Interval Id in Before IF",intervalId);
+     
       // Set up an interval to update the calendar data every 10 seconds
       intervalId =  setInterval(async () => {
         try {
           for (const calendarId of calendarIds) {
-            console.log("Hey this loop is continuously working",calendarId);
             const updatedData = await fetchGraphData(
               `https://graph.microsoft.com/v1.0/me/calendars/${calendarId}/events`,
               req.session.accessToken
@@ -141,21 +143,17 @@ router.get("/calendar", isAuthenticated, async function (req, res, next) {
         } catch (error) {
           console.error("Error updating calendar data:", error);
         }
-      }, 10000);
+      }, 10000, calendarIds); 
+      
       // res.json({ data: calendarDataArray });
       res.redirect('/users/calendars')
-      console.log("Interval Id in IF",intervalId);
-    }
+      console.log("Interval Id After IF",intervalId);
+   
+   
+    
         // res.json({ data: calendarDataArray });
-      else{
-        console.log("False");
-        // console.log("Interval ID in else:", intervalId);
-        clearInterval(intervalId);
-        res.redirect('/users/calendars')
-
-        // res.json({ data: "Clear Interval" });
-      }
-    }
+  }
+    
 
      catch (error) {
       next(error);
@@ -164,7 +162,7 @@ router.get("/calendar", isAuthenticated, async function (req, res, next) {
   
   router.post("/stopUpdateInterval", isAuthenticated, async function (req, res, next) {
     // Assuming you have some condition to check if the interval should be stopped
-    if (req.query.stopInterval === 'true') {
+    if (req.query.ids !== 'null') {
         clearInterval(intervalId); // Stop the interval
         res.json({ message: "Update interval stopped" });
     } else {

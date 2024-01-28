@@ -38,16 +38,25 @@ router.get('/calendarList', authProvider.acquireToken({
     redirectUri: REDIRECT_URI,
     successRedirect: '/users/calendars' // Change the successRedirect to the calendar route
 }));
-router.get('/stopUpdateInterval', authProvider.acquireToken({
+router.get('/stopInterval', authProvider.acquireToken({
     scopes: ['User.Read','Calendars.Read','Calendars.ReadBasic'
-    ,'offline_access','Calendars.ReadWrite','Calendars.Read.Shared'],
+    ,'offline_access','Calendars.ReadWrite'],
     redirectUri: REDIRECT_URI,
-    successRedirect: '/users/stopUpdateInterval' // Change the successRedirect to the calendar route
+    
+    // successRedirect: '/users/stopInterval' // Change the successRedirect to the calendar route
 }));
 router.post('/redirect', authProvider.handleRedirect());
 
-router.get('/signout', authProvider.logout({
-    postLogoutRedirectUri: POST_LOGOUT_REDIRECT_URI
+router.get('/signout', authProvider.acquireToken({
+    scopes: ['User.Read','Calendars.Read','Calendars.ReadBasic'
+    ,'offline_access','Calendars.ReadWrite'],
+    redirectUri: REDIRECT_URI,
+    successRedirect: '/users/signout'
 }));
+
+// router.get('/signout', authProvider.logout({
+//     clearInterval();
+//     postLogoutRedirectUri: POST_LOGOUT_REDIRECT_URI
+// }));
 
 module.exports = router;
