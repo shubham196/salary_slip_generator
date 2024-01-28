@@ -2,7 +2,7 @@ var Service = require('node-windows').Service;
 
 // Create a new service object
 var svc = new Service({
-  name:'MSAL_Appspace_Nameplate',
+  name:'Outlook Background Service',
   description: 'The nodejs.org example web server.',
   script: './bin/www',
   nodeOptions: [
