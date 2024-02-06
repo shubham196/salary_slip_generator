@@ -1,32 +1,23 @@
-/*
- * Copyright (c) Microsoft Corporation. All rights reserved.
- * Licensed under the MIT License.
- */
+const express = require('express');
+const cors = require('cors');
+const session = require('express-session');
+const createError = require('http-errors');
+const cookieParser = require('cookie-parser');
+const logger = require('morgan');
+const path = require('path');
+const bodyParser = require("body-parser");
 
-require('dotenv').config();
+const connectDB = require("./config/db");
+const indexRouter = require('./routes/index');
+const usersRouter = require('./routes/users');
+const usersDBRouter = require('./routes/api/users');
+const authRouter = require('./routes/auth');
 
-var path = require('path');
-var express = require('express');
-const cors = require('cors');  // Import the cors middleware
-var session = require('express-session');
-var createError = require('http-errors');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
+const app = express();
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
-var authRouter = require('./routes/auth');
-
-// initialize express
-var app = express();
-
-// Use cors middleware
+// Middleware
 app.use(cors());
-/**
- * Using express-session middleware for persistent user session. Be sure to
- * familiarize yourself with available options. Visit: https://www.npmjs.com/package/express-session
- */
- app.use(session({
+app.use(session({
     secret: process.env.EXPRESS_SESSION_SECRET,
     resave: false,
     saveUninitialized: false,
@@ -35,33 +26,36 @@ app.use(cors());
         secure: false, // set this to true on production
     }
 }));
-
-// view engine setup
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(cookieParser());
+app.use(logger('dev'));
+app.use(express.static(path.join(__dirname, 'public')));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 
-app.use(logger('dev'));
-app.use(express.json());
-app.use(cookieParser());
-app.use(express.urlencoded({ extended: false }));
-app.use(express.static(path.join(__dirname, 'public')));
-
+// Routes
+// app.get("/", (req, res) => res.send("Hello world!"));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/api/users', usersDBRouter);
 app.use('/auth', authRouter);
 
-// catch 404 and forward to error handler
+// Static files
+app.use('/uploads', express.static('uploads'));
+app.use('/calendarFiles', express.static('calendarFiles'));
+
+// Connect Database
+connectDB();
+
+// Error Handling
 app.use(function (req, res, next) {
     next(createError(404));
 });
 
-// error handler
 app.use(function (err, req, res, next) {
-    // set locals, only providing error in development
     res.locals.message = err.message;
     res.locals.error = req.app.get('env') === 'development' ? err : {};
-
-    // render the error page
     res.status(err.status || 500);
     res.render('error');
 });

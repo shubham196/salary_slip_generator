@@ -16,7 +16,7 @@ router.use(cors());
 router.get('/signin', authProvider.login({
     scopes: [],
     redirectUri: REDIRECT_URI,
-    successRedirect: '/'
+    successRedirect: 'http://localhost:3003'
 }));
 
 router.get('/acquireToken', authProvider.acquireToken({

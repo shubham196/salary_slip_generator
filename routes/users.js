@@ -160,7 +160,7 @@ router.get("/calendar", isAuthenticated, async function (req, res, next) {
 router.get("/stopInterval", isAuthenticated, async function (req, res, next) {
   // Assuming you have some condition to check if the interval should be stopped
   console.log("Inside Stop Interval");
-
+  res.redirect('/users/calendars');
   globalCalId.delete(req.query.ids)
   if (globalCalId.length === 0 && globalIntervalId !== -1) {
      clearInterval(globalIntervalId)

@@ -7,6 +7,7 @@
 var app = require('../app');
 var debug = require('debug')('msal:server');
 var http = require('http');
+
 var cors = require('cors'); // Import the cors middleware
 /**
  * Get port from environment and store in Express.
