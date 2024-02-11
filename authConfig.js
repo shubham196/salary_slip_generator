@@ -27,7 +27,7 @@ const msalConfig = {
     }
 }
 const userCalendarId = "";
-
+const LOCAL_IP = process.env.LOCAL_IP;
 const REDIRECT_URI = process.env.REDIRECT_URI;
 const POST_LOGOUT_REDIRECT_URI = process.env.POST_LOGOUT_REDIRECT_URI;
 const GRAPH_ME_ENDPOINT = process.env.GRAPH_API_ENDPOINT + "v1.0/me/events";
@@ -39,5 +39,6 @@ module.exports = {
     POST_LOGOUT_REDIRECT_URI,
     GRAPH_ME_ENDPOINT,
     GRAPH_USER_CALENDAR_ENDPOINT,
-    GRAPH_CALENDAR_ENDPOINT
+    GRAPH_CALENDAR_ENDPOINT,
+    LOCAL_IP
 };

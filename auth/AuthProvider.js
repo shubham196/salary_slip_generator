@@ -114,8 +114,8 @@ class AuthProvider {
                         successRedirect: options.successRedirect || '/',
                     })(req, res, next);
                 }
-
-                next(error);
+                
+                next(console.log("Auth Error",error));
             }
         };
     }

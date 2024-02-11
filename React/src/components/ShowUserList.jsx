@@ -4,6 +4,9 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import CalendarComponent from "./CalendarComponent";
 
+const LOCAL_IP = import.meta.env.VITE_SERVER_IP
+
+console.log("LOCAL_IP  in HOMEPAGE",LOCAL_IP);
 // Table row component
 const UserTableRow = ({ user, handleInputChange, handleGenerateLink, handleDeleteUser }) => (
   <tr>
@@ -14,7 +17,7 @@ const UserTableRow = ({ user, handleInputChange, handleGenerateLink, handleDelet
   
     <td>
       <img
-        src={`http://localhost:3000/uploads/${user.image}`}
+        src={`${LOCAL_IP}/uploads/${user.image}`}
         alt="image"
         height={50}
         width={50}
@@ -66,10 +69,10 @@ function ShowUserList() {
     fetchUsers();
   }, []);
 
-  // Function to fetch user data
+    // Function to fetch user data
   const fetchUsers = () => {
     axios
-      .get("http://localhost:3000/api/users")
+      .get(`${LOCAL_IP}/api/users`)
       .then((res) => {
         setUsers(res.data);
       })
@@ -103,7 +106,7 @@ function ShowUserList() {
       return;
     }
     
-    const link = `http://localhost:3000/calendarFiles/calendarData_${user.calendarId}.json`;
+    const link = `${LOCAL_IP}/calendarFiles/calendarData_${user.calendarId}.json`;
     
     // Update the user object with the generated link
     const updatedUser = { ...user, calendarLink: link };
@@ -113,7 +116,7 @@ function ShowUserList() {
     
     // Store the generated link in the database
     axios
-      .put(`http://localhost:3000/api/users/${userId}/calendar`, { calendarId: user.calendarId, calendarLink: link })
+      .put(`${LOCAL_IP}/api/users/${userId}/calendar`, { calendarId: user.calendarId, calendarLink: link })
       .then((res) => {
         window.alert("Calendar Link Generated")
         console.log("Calendar link stored successfully:", res.data);
@@ -128,7 +131,7 @@ function ShowUserList() {
   const handleDeleteUser = (userId) => {
     if (window.confirm("Are you sure you want to delete this user?")) {
       axios
-        .delete(`http://localhost:3000/api/users/${userId}`)
+        .delete(`${LOCAL_IP}/api/users/${userId}`)
         .then((res) => {
           console.log("User deleted successfully");
           // Update the users state to reflect the deletion
@@ -152,13 +155,13 @@ function ShowUserList() {
         Add New User
       </Link>
       <Link
-        to="http://localhost:3000/auth/calendarList"
+        to={`${LOCAL_IP}/auth/calendarList`}
         className="button button-sign-in bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 ml-10 rounded inline-block mb-4"
       >
         Calendar List
       </Link>
       <Link
-        to="http://localhost:3000/auth/signout"
+        to={`${LOCAL_IP}/auth/signout`}
         className="button button-sign-in bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 ml-10 rounded inline-block mb-4"
       >
         Sign Out

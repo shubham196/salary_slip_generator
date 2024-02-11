@@ -4,6 +4,10 @@ import "../assets/nameplate.css";
 import axios from "axios";
 import CalendarComponent from "./CalendarComponent";
 
+const LOCAL_IP = import.meta.env.VITE_SERVER_IP
+
+console.log("LOCAL_IP  in NAMEPLATE",LOCAL_IP);
+
 function NamePlate(props) {
   const [user, setUser] = useState({});
 
@@ -12,7 +16,7 @@ function NamePlate(props) {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/api/users/${id}`)
+      .get(`${LOCAL_IP}/api/users/${id}`)
       .then((res) => {
         setUser(res.data);
       })
@@ -23,7 +27,7 @@ function NamePlate(props) {
 
   const onDeleteClick = (id) => {
     axios
-      .delete(`http://localhost:3000/api/users/${id}`)
+      .delete(`${LOCAL_IP}/api/users/${id}`)
       .then((res) => {
         navigate("/");
       })
@@ -34,14 +38,14 @@ function NamePlate(props) {
 
 return (
     <div className="playback-view">
-    <div className="logo"><img id="img1"  src={`http://localhost:3000/uploads/logo.png`} alt=""/></div>
+    <div className="logo"><img id="img1"  src={`${LOCAL_IP}/uploads/logo.png`} alt=""/></div>
 
         <CalendarComponent />
         <div className="model-message">{user.name}</div>
         <div className="overlay-texth2">{user.designation}</div>
         <div className="user-image">
           <img
-            src={`http://localhost:3000/uploads/${user.image}`}
+            src={`${LOCAL_IP}/uploads/${user.image}`}
             alt=""
           />
           <div className="content" id="content"></div>

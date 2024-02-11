@@ -6,7 +6,7 @@
 var express = require('express');
 var cors = require('cors');  // Import the cors middleware
 const authProvider = require('../auth/AuthProvider');
-const { REDIRECT_URI, POST_LOGOUT_REDIRECT_URI } = require('../authConfig');
+const { REDIRECT_URI, POST_LOGOUT_REDIRECT_URI, LOCAL_IP } = require('../authConfig');
 
 const router = express.Router();
 
@@ -16,7 +16,7 @@ router.use(cors());
 router.get('/signin', authProvider.login({
     scopes: [],
     redirectUri: REDIRECT_URI,
-    successRedirect: 'http://localhost:3003'
+    successRedirect: LOCAL_IP
 }));
 
 router.get('/acquireToken', authProvider.acquireToken({

@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
+const LOCAL_IP = import.meta.env.VITE_SERVER_IP
+
+console.log("LOCAL_IP  in CREATE_USER",LOCAL_IP);
+
 const CreateUser = (props) => {
   const navigate = useNavigate();
   const [user, setUser] = useState({
@@ -39,7 +43,7 @@ const CreateUser = (props) => {
     }
     if (user.name && user.designation && user.image) {
       axios
-        .post("http://localhost:3000/api/users", user, {
+        .post(`${LOCAL_IP}/api/users`, user, {
           headers: {
             "Content-Type": "multipart/form-data",
           },

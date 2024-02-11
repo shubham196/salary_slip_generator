@@ -5,10 +5,12 @@ const authProvider = require('../auth/AuthProvider');
 // const { REDIRECT_URI, POST_LOGOUT_REDIRECT_URI } = require('../authConfig');
 var fetch = require("../fetch");
 
+
 var {
   GRAPH_ME_ENDPOINT,
   POST_LOGOUT_REDIRECT_URI,
   GRAPH_CALENDAR_ENDPOINT,
+  LOCAL_IP
 } = require("../authConfig");
 
 // Custom middleware to check auth state
@@ -60,7 +62,7 @@ router.get("/profile", isAuthenticated, async function (req, res, next) {
 router.get("/calendars", isAuthenticated, async function (req, res, next) {
   try {
     let calendarList;
-
+    
     // Fetch calendar data from the Graph API
     try {
       calendarList = await fetchGraphData(
@@ -70,6 +72,9 @@ router.get("/calendars", isAuthenticated, async function (req, res, next) {
       // console.log("Calendar List ::", calendarList);
     } catch (err) {
       console.error("Error fetching calendar list:", err);
+      if(res.status(500)){
+        res.redirect('/users/calendars');
+      }
       return res.status(500).json({ error: "Error fetching calendar list" });
     }
 
@@ -82,7 +87,7 @@ router.get("/calendars", isAuthenticated, async function (req, res, next) {
     let calendarNames = calendarData.map((calendar) => calendar.name);
 
     // Render the 'profile' view with calendarIds and calendarNames
-    res.render("profile", { calendarData });
+    res.render("profile", { calendarData, LOCAL_IP });
   } catch (error) {
     next(error);
   }
