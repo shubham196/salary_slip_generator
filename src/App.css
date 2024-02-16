@@ -1,0 +1,1058 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* #0844a7-color */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container-main {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100vh; /* 100% of the viewport height */
+}
+/* TopHeader.css */
+
+.top-header {
+  position: fixed;
+  top: 0;
+  left: 0%;
+  height: 11vh;
+  z-index: -999;
+  background-color: gainsboro;
+  color: white;
+  padding: 10px 20px;
+  width: 100%; /* Adjust for sidebar width */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box; /* Add this line to include padding in width calculation */
+}
+.search-container {
+  display: flex;
+  padding: 2px;
+border-radius: 10px;
+  align-items: center;
+  background-color: #0844a7;
+
+  margin-left: auto;
+  margin-right: 20px; /* Push the search container to the right */
+}
+
+.search-icon {
+  color: #fff;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.search-input {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0844a7;
+  color: #fff;
+}
+
+.search-input::placeholder {
+  color: rgb(221, 218, 218); /* Placeholder text color */
+  font-weight: 540; /* Italicize placeholder text (optional) */
+  /* Add any other styling properties as needed */
+}
+
+.user-info {
+  display: flex;
+ 
+  align-items: center;
+  padding: 7px  20px;
+}
+
+.user-image {
+  width: 40px;
+  border: 5px double #0844a7 ;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+margin-right: 10px;
+}
+
+.user-name {
+  font-size: 17px;
+font-weight: 500;
+  color: black;
+}
+
+/* SideBar.css */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: gainsboro;
+  color: #ecf0f1;
+  width: 300px;
+  padding: 10px 25px;
+  height: 100vh;
+  box-sizing: border-box; /* Add this line to include padding in width calculation */
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.logo-img {
+  width: 240px;
+  height: 65px;
+
+}
+
+hr.horizon-line {
+  background-color: gainsboro;
+  padding: 1px;
+  margin-top: -6px;
+  width: 100%;
+}
+
+.search-container-sidebar {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.search-icon-sidebar {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.search-input-sidebar {
+  width: calc(100% - 55px); /* Adjust for icon and padding */
+  padding: 10px;
+  padding-left: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color:  #0844a7;
+  color: #fff;
+}
+
+  
+/* Add this CSS to your stylesheet */
+
+.search-input-sidebar::placeholder {
+  color: rgb(221, 218, 218);  /* Placeholder text color */
+  font-weight: 540; /* Italicize placeholder text (optional) */
+  /* Add any other styling properties as needed */
+}
+
+
+.options {
+  margin-bottom: 20px;
+}
+
+.options h1 {
+  text-align: left;
+  background-color: rgb(245, 240, 240);
+  border-radius: 10px;
+  color:  #0844a7;
+  width: calc(100% - 45px);
+  padding: 5px 20px;
+  font-size: 19px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.option:hover {
+  background-color: #c5cdd4;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.option i {
+  margin-left: 20px;
+  margin-right: auto;
+  width: 30px;
+  color:  #0844a7;
+  padding: 5px 10px;
+
+}
+
+.option span {
+  font-size: 16px;
+  font-weight:600;
+  color:  #0844a7;
+}
+/* Add this CSS to your stylesheet */
+
+.option a:active {
+  color: blue; /* Change the color to your desired color */
+  /* Add any additional styling for the active link */
+}
+
+.active-link {
+  color: black;
+  
+  background-color: rgb(244, 243, 243);
+  border-radius: 10px;
+  width: 100%;
+  padding: 5px;
+}
+
+
+/* Add this CSS to your stylesheet */
+.sidebar .options .option a {
+  text-decoration: none;
+  color: inherit; /* Ensure link color matches the default text color */
+}
+
+/* Style the link on hover if needed */
+.sidebar .options .option a:hover {
+  text-decoration: none;
+}
+
+.sign-out button {
+  position: absolute;
+  bottom: 20px;
+  width: 50%;
+ left: 50%;
+ transform: translateX(-50%);
+  background-color:  #0844a7;
+  color: gainsboro;
+  border: none;
+  padding: 10px 20px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sign-out button:hover {
+  background-color: #c0392b;
+}
+
+
+
+.container {
+    position: relative;
+  width: 79.8%;
+  max-width: 100%;
+  background-color:gainsboro;
+top: 6%;
+left: 19.3%;
+height: 88vh;
+  text-align: center;
+  position: relative;
+  margin: auto 10px;
+}
+
+.container h1 {
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  font-style: normal;
+}
+
+.table-container {
+
+  margin-top: 20px;
+  margin: auto;
+  
+  border-collapse: collapse;
+  width: 95%;
+  height: auto;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.table-container th,
+.table-container td {
+  padding: 18px;
+  text-align: center;
+}
+
+.table-container th {
+  background-color: black;
+      font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  font-style: normal;
+  color: white;
+}
+
+
+
+.table-container tr:nth-child(even) {
+  background: linear-gradient(
+    90deg,
+    #817a7a,
+    #ffffff
+  ); /* Gray to white gradient */
+}
+
+.table-container tr:nth-child(odd) {
+  background: linear-gradient(
+    90deg,
+    #f7ebeb,
+    #f2f2f2
+  ); /* White to gray gradient */
+}
+
+.table-container tr:hover {
+  background-color: #ddd;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.button {
+  padding: 10px;
+
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.button-openLink {
+  background: linear-gradient(90deg, #008cba, #005a70); /* Gradient from #008cba to #005a70 */
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.button-copy {
+  background: linear-gradient(90deg, #008cba, #005a70); /* Gradient from #008cba to #005a70 */
+    border-radius: 10px;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Hover effect for .button-sync */
+.button-edit:hover {
+    background: linear-gradient(90deg, #2e7d32, #1d5e24); /* Darker green gradient for .button-sync on hover */
+}
+
+/* Hover effect for .button-stop */
+.button-delete:hover {
+    background: linear-gradient(90deg, #d32f2f, #9a2525); /* Darker red gradient for .button-stop on hover */
+}
+
+.button-edit {
+  background: linear-gradient(90deg, #4caf50, #2e7d32); /* Green gradient from #4caf50 to #2e7d32 */
+  color: white;
+  border-radius: 10px;
+  padding: 10px 35px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.button-delete {
+  background: linear-gradient(90deg, #f44336, #d32f2f); /* Red gradient from #f44336 to #d32f2f */
+  color: white;
+  border-radius: 10px;
+  padding: 10px 35px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.button-openLink:hover {
+  background: linear-gradient(90deg, #005a70, #00394a); /* Gradient from #005a70 to #00394a on hover */
+}
+
+.button-copy:hover {
+  background: linear-gradient(90deg, #005a70, #00394a); /* Gradient from #005a70 to #00394a on hover */
+}
+
+.button-sign-in {
+   background: linear-gradient(90deg, #008cba, #005a70); /* Gradient from #008cba to #005a70 */
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  
+  font-style: normal;
+  border-radius: 15px;
+  padding: 8px 20px;
+  color: white;
+  border: none;
+}
+
+.button-sign-in:hover {
+    background: linear-gradient(90deg, #005a70, #00394a); /* Gradient from #005a70 to #00394a on hover */
+}
+.sign-in-container {
+  position: absolute;
+  top: 25px;
+  right: 35px;
+}
+
+/* CSS for input[type="text"] */
+input[type="text"] {
+  width: calc(100% - 10px);
+  color: black;
+  /* Modify other properties as needed */
+  /* padding: 8px; */
+  box-sizing: border-box;
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.custom-id-input-text  {
+  padding: 8px;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+.search-container-user input[type="text"] {
+  width: calc(100% - 10px);
+  padding: 8px;
+  box-sizing: border-box;
+  /* border: 1px solid #ccc; */
+  border-radius: 14px;
+  transition: border-color 0.3s ease;
+  color: white; /* Set the text color to white */
+}
+
+
+
+/* CSS for .search-container-user input[type="text"] */
+.search-container-sidebar input[type="text"] {
+  width: calc(100% - 10px);
+  /* padding: 10px; */
+  color: white;
+  box-sizing: border-box;
+  /* border: 1px solid #ccc; */
+  border-radius: 10px; /* Adjust border-radius as needed */
+  transition: border-color 0.3s ease;
+}
+
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+
+
+ 
+ 
+.open-popup-btn {
+
+   
+  cursor: pointer;
+}
+
+.popup-overlay  {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background:none;
+  padding: 20px;
+  width: 35%;
+  height: 70vh;
+  border-radius: 5px;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Center horizontally and vertically */
+}
+
+.close-popup {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #000000;
+}
+form {
+  background-color: whitesmoke;
+  border-radius: 20px;
+box-sizing: border-box;
+  height: auto;
+  padding: 20px;
+  width: 520px;
+}
+
+.title {
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.subtitle {
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.input-container {
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.ic1 {
+  margin-top: 40px;
+}
+
+.ic2 {
+  margin-top: 30px;
+}
+
+.input {
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+
+.cut {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  height: 20px;
+  left: 20px;
+  position: absolute;
+  top: -20px;
+  transform: translateY(0);
+  transition: transform 200ms;
+  width: 76px;
+}
+
+.cut-short {
+  width: 50px;
+}
+
+.input:focus ~ .cut,
+.input:not(:placeholder-shown) ~ .cut {
+  transform: translateY(8px);
+}
+
+.placeholder {
+  color: rgb(0, 0, 0); /* Adjust the color to ensure visibility */
+  font-family: sans-serif;
+  left: 20px;
+  line-height: 14px;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 20px;
+
+
+    display: inline-block;
+    min-height: 1em;
+    vertical-align: middle;
+    cursor: wait;
+    background-color: transparent;
+    opacity: .5;
+
+}
+
+
+.input:focus ~ .placeholder,
+.input:not(:placeholder-shown) ~ .placeholder {
+  transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+
+.input:not(:placeholder-shown) ~ .placeholder {
+  color: #808097;
+}
+
+.input:focus ~ .placeholder {
+  color: #000000;
+}
+
+.submit {
+  background: linear-gradient(90deg, #008cba, #005a70);
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  outline: 0;
+  text-align: center;
+  width: 50%;
+}
+
+.submit:hover {
+  background: linear-gradient(90deg, #005a70, #00394a)
+}
+
+button[type="submit"] {
+  background-color: #007bff; /* blue background */
+  color: #fff; /* white text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3; /* darker blue on hover */
+}
+/* App.css */
+/* App.css */
+/* App.css */
+
+.delete-overlay ,
+.edit2-popup-overlay{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent gray background */
+z-index: 1000;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.delete-confirmation {
+background-color: #fff;
+padding: 20px;
+border-radius: 5px;
+position: relative;
+width: 500px;
+height: 400px; /* Adjust the height as needed */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.delete-confirmation p {
+margin-bottom: 15px;
+}
+
+.button-container {
+display: flex;
+}
+
+.button-yes,
+.button-no {
+padding: 12px 24px; /* Increase button size */
+margin-right: 10px;
+cursor: pointer;
+border: none;
+border-radius: 5px;
+transition: background-color 0.3s; /* Add transition for hover effect */
+}
+
+.button-yes {
+background-color: #ff4d4f;
+color: #fff;
+}
+
+.button-no {
+background-color: #ddd;
+color: #333;
+}
+
+/* Add hover effect */
+.button-yes:hover,
+.button-no:hover {
+background-color: #555;
+color: #fff;
+}
+
+/* Change color of selected button */
+.button-yes.selected,
+.button-no.selected {
+background-color: #333;
+color: #fff;
+}
+
+.sign-out-overlay {
+  position: fixed;
+  top: 45%;
+  left: 1%;
+  width: 17.5%;
+  height: 50%;
+   /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-out-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  color:#000000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow for the sign-out form container */
+  text-align: center;
+}
+
+/* Add styles for buttons and other elements within the sign-out form as needed */
+
+.sign-out-form h2 {
+  margin-bottom: 10px; 
+  text-align: center;/* Spacing below the heading */
+}
+
+.sign-out-form p {
+  margin-bottom: 20px; /* Spacing below the paragraph */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  padding: 10px 20px; /* Padding around the button text */
+  margin: 0 10px; /* Margin between buttons */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-yes {
+  background-color: #5cb85c; /* Green background color */
+  color: #fff; /* White text color */
+}
+
+.button-no {
+  background-color: #d9534f; /* Red background color */
+  color: #fff; /* White text color */
+}
+.search-container-user {
+  display: flex;
+ 
+  position: absolute;
+  top: 1.2%;
+  border-radius: 10px;
+  right: 17.5%;
+  padding:4px;
+  width: 17.5%;
+  background-color: #0844a7;
+  align-items: center;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.search-icon-user {
+  color: white;
+  margin-right: 10px;
+  padding-left: 20px; /* Adjust as needed */
+}
+
+.search-input-user {
+  padding: 8px;
+  background-color: #0844a7;
+  border: none;
+  border-radius: 5px;
+  width: 200px; /* Adjust as needed */
+  outline: none;
+}
+
+.search-input-user::placeholder {
+  color: gainsboro;
+}
+
+
+@media screen and (min-width: 1600px) { 
+  .close-popup {
+    position: absolute;
+    top: 90px;
+    right: 40px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #000000;
+  }
+  .logo-img {
+    margin-top: 10px;
+    width: 265px;
+    height: 80px;
+  
+  }
+
+  
+
+}
+
+
+.main-container {
+  display: flex;
+  height: 100vh; /* Set height to 100% of the viewport height */
+  z-index: 2001;
+  width: 100%;
+}
+
+.signup-container,
+.image-container {
+  flex: 1;
+  background: linear-gradient(to top, #1d5e24, #2a629d); /* Gradient background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%; /* Take up half of the container width */
+  color: white;
+  height: 100vh; /* Set height to 100% of the viewport height */
+}
+
+.signup-content {
+  flex-direction: column;
+  width: 60%; /* Width of the content */
+  height: 60vh; /* Height of the content */
+  background-color: rgba(0, 57, 74, 0.5); /* Semi-transparent background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Box shadow with transparency */
+}
+
+.signup-content h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.signup-button {
+  color: white; /* text color */
+  font-size: 20px;
+
+  padding: 10px 20px; /* padding */
+  background: linear-gradient(to right, #2c639e, #083174); /* gradient background */
+  border: none; /* remove border */
+  border-radius: 10px; /* rounded corners */
+  font-weight: 500;
+  cursor: pointer; /* show pointer on hover */
+  font-size: 18px; /* font size */
+}
+
+.signup-button:hover {
+border: gainsboro 5px double;
+}
+
+.signup-image {
+  width: 100%;
+  height: 100vh;
+
+}
+.image-text {
+  position: absolute;
+  top: 15%;
+  width: 40%;
+  
+  left: 55%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Box shadow with transparency */
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.image-text h2 {
+  font-size: 40px;
+  padding: 0 20px;
+}
+
+
+.image-text p{
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+.bottomtext {
+  bottom: -50px; /* Initial position */
+  font-style: italic;
+  font-size: 25px;
+  color: rgb(231, 216, 216);
+  position: absolute;
+  animation: slideUp 2s ease forwards infinite; /* Animation definition */
+}
+
+@keyframes slideUp {
+  from {
+    bottom: 50px; /* Initial position */
+  }
+  to {
+    bottom: 10px; /* Final position */
+  }
+}
+
+.top-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.back-button {
+  background-color: transparent;
+  color: gainsboro;
+  border: none;
+  font-size: 20px;
+
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button i {
+  margin-right: 5px;
+}
+.row {
+  margin-top: 2.5%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Adjust margin between rows */
+}
+
+.column {
+  flex: 1; /* Each column takes equal space */
+  margin: 0 10px; /* Adjust margin between columns */
+}
+
+.column img {
+  border-radius: 15px;
+  width: 80%; /* Ensure images take up full width of column */
+  height: 50vh; /* Maintain aspect ratio */
+}
+
+.column p {
+  
+  text-align: center;
+  width: 80% ;
+  padding: 5px 0px;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+margin: 10px 60px;
+box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  background-color: rgb(237, 234, 234); /* Center-align the text below the image */
+}
+
+
+/* error.css */
+
+.error-container {
+  z-index: 2001;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+.error-container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.error-container p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.error-container a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.error-container a:hover {
+  color: #0056b3;
+}
+
+.pagination-container {
+  position: fixed;
+  bottom: 20px;
+  left: 60%;
+  transform: translateX(-50%);
+}
+
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  display: block;
+  padding: 5px 10px;
+  background-color: #eee;
+  color: #333;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.page-link:hover {
+  background-color: #ccc;
+}
+
+.active .page-link {
+  background-color: #007bff;
+  color: #fff;
+}
