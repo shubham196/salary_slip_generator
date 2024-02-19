@@ -18,6 +18,7 @@
     <thead>
         <tr>
             <th>Calendar Name</th>
+            <th>Calendar Orgnizer</th>
             <th>Calendar ID</th>
             <th>Action</th>
         </tr>
@@ -26,7 +27,7 @@
         {{#each calendarData}}
          <tr data-state="unsynced">
             <td><h3>{{this.name}}</h3></td>
-            {{!-- <td>{{this.id}}</td> --}}
+            <td>{{this.owner.address}}</td>
            <td><button id="syncBtn1" class="button button-copy" onclick="copyId('{{this.id}}')">Copy Calendar Id</button></td>
             <td class="button-container">
                  {{!-- <button onclick="copyId('{{this.id}}')">Copy Calendar Id</button> --}}

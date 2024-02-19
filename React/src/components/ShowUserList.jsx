@@ -155,13 +155,13 @@ function ShowUserList() {
         Add New User
       </Link>
       <Link
-        to={`${LOCAL_IP}/auth/calendarList`}
+        to={"http://localhost:3000/auth/calendarList"}
         className="button button-sign-in bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 ml-10 rounded inline-block mb-4"
       >
         Calendar List
       </Link>
       <Link
-        to={`${LOCAL_IP}/auth/signout`}
+        to={"http://localhost:3000/auth/signout"}
         className="button button-sign-in bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 ml-10 rounded inline-block mb-4"
       >
         Sign Out
