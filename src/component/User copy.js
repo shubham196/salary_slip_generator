@@ -4,10 +4,8 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import CalendarComponent from "./CalendarComponent";
-import UserEdit from "./UserEdit";
 
 export default function User() {
-  const [editUserId, setEditUserId] = useState(null);
   const [search, setSearch] = useState('');
   const [isPopupOpen, setPopupOpen] = useState(false);
   const [isEditPopupOpen, setEditPopupOpen] = useState(false);
@@ -32,8 +30,6 @@ export default function User() {
   });
   const [calendarLink, setCalendarLink] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const LOCAL_IP = process.env.REACT_APP_IP;
-
 
   useEffect(() => {
     fetchUsers();
@@ -42,7 +38,7 @@ export default function User() {
   // Function to fetch user data
   const fetchUsers = () => {
     axios
-      .get(`${LOCAL_IP}/api/users`)
+      .get("http://localhost:8082/api/users")
       .then((res) => {
         setUsers(res.data);
       })
@@ -50,15 +46,14 @@ export default function User() {
         console.log("Error fetching users:", err);
       });
   };
-  // Function to open the edit popup for a specific user
-  const openEditPopup = (userId) => {
-    setEditUserId(userId);
+  const openModal = () => {
+    setIsModalOpen(true);
   };
-
-  // Function to close the edit popup
-  const closeEditPopup = () => {
-    setEditUserId(null);
+  
+  const closeModal = () => {
+    setIsModalOpen(false);
   };
+  
   // Function to handle input change
   const handleInputChange = (e, userId) => {
     const { name, value } = e.target;
@@ -80,7 +75,7 @@ export default function User() {
       return;
     }
     
-    const link = `${LOCAL_IP}/calendarFiles/calendarData_${user.calendarId}.json`;
+    const link = `http://localhost:8082/calendarFiles/calendarData_${user.calendarId}.json`;
     
     // Update the user object with the generated link
     const updatedUser = { ...user, calendarLink: link };
@@ -90,7 +85,7 @@ export default function User() {
     
     // Store the generated link in the database
     axios
-    .put(`${LOCAL_IP}/api/users/${userId}/calendar`, { calendarId: user.calendarId, calendarLink: link })
+      .put(`http://localhost:8082/api/users/${userId}/calendar`, { calendarId: user.calendarId, calendarLink: link })
       .then((res) => {
         window.alert("Calendar Link Generated")
         console.log("Calendar link stored successfully:", res.data);
@@ -105,7 +100,7 @@ export default function User() {
   const handleDeleteUser = (userId) => {
     if (window.confirm("Are you sure you want to delete this user?")) {
       axios
-      .delete(`${LOCAL_IP}/api/users/${userId}`)
+        .delete(`http://localhost:8082/api/users/${userId}`)
         .then((res) => {
           console.log("User deleted successfully");
           // Update the users state to reflect the deletion
@@ -173,11 +168,8 @@ export default function User() {
       setImageError("Image is required");
     }
     if (user.name && user.designation && user.image) {
-
-      console.log("LOcal IP is in create ",LOCAL_IP);
-
       axios
-      .post(`${LOCAL_IP}/api/users`, user, {
+        .post("http://localhost:8082/api/users", user, {
           headers: {
             "Content-Type": "multipart/form-data",
           },
@@ -189,7 +181,7 @@ export default function User() {
             image: null,
           });
           window.alert("User Created Successfully!");
-          window.location.reload(); 
+          navigate("/");
         })
         .catch((err) => {
           console.log("Error in CreateUser!");
@@ -286,7 +278,7 @@ export default function User() {
             <th>Edit</th>
             <th>Delete</th>
             <th>Generate Link</th>
-            <th className="th-open-card">Open Card</th>
+            <th>Open Card</th>
             </tr>
           </thead>
           <tbody>
@@ -295,10 +287,10 @@ export default function User() {
                 return search.toLowerCase() === '' ? user : user.name.toLowerCase().includes(search);
               })
               .map((user) => (
-                <tr key={user._id}>
+                <tr key={user.id}>
                       <td>
                         <img
-                          src={`${LOCAL_IP}/uploads/${user.image}`}
+                          src={`http://localhost:8082/uploads/${user.image}`}
                           alt="image"
                           height={50}
                           width={50}
@@ -311,19 +303,58 @@ export default function User() {
                   <td>
                     <input
                       type="text"
-                      id="custom-id-input-text"
+                      className="custom-id-input-text"
                       name="calendarId"
                       value={user.calendarId || ""}
                       onChange={(e) => handleInputChange(e, user._id)}
                     />
-                     <button className="button button-save" onClick={() => handleGenerateLink(user._id)}>Save</button>
                   </td>
                   <td>
-                  <button className="button button-edit" onClick={() => openEditPopup(user._id)}>Edit</button>
-                  {editUserId === user._id && (
-                    <UserEdit isOpen={true} onClose={toggleEditPopup} userId={user._id} />
-                  )}
-                </td>
+                    <button className="button button-edit" onClick={toggleEditPopup}>
+                      Edit
+                    </button>
+                    {isEditPopupOpen && (
+                      <div className="edit-popup-overlay">
+                        <div className="edit2-popup-overlay">
+                          <div className="popup-content">
+                            <span className="close-popup" onClick={toggleEditPopup}>
+                              &times;
+                            </span>
+                            <form>
+                              <div className="form">
+                                <div className="title">Welcome</div>
+                                <div className="subtitle">Edit User Details !</div>
+                                <div className="input-container ic1">
+                                  <input id="firstname" className="input" type="text" placeholder=" " />
+                                  <div className="cut"></div>
+                                  <label htmlFor="firstname" className="placeholder">
+                                    User Name
+                                  </label>
+                                </div>
+                                <div className="input-container ic2">
+                                  <input id="lastname" className="input" type="text" placeholder=" " />
+                                  <div className="cut"></div>
+                                  <label htmlFor="lastname" className="placeholder">
+                                    Customer Id
+                                  </label>
+                                </div>
+                                <div className="input-container ic2">
+                                  <input id="email" className="input" type="text" placeholder=" " />
+                                  <div className="cut cut-short"></div>
+                                  <label htmlFor="email" className="placeholder">
+                                    Email
+                                  </label>
+                                </div>
+                                <button type="text" className="submit">
+                                  Edit User
+                                </button>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+                  </td>
                   <td>
                   <td>
                     <button className="button button-delete" onClick={() => handleDeleteUser(user._id)}>Delete</button>
@@ -345,10 +376,8 @@ export default function User() {
                     )}
                   </td>
                   <td className="button-container">
-                    {/* <button className="button button-openLink" onClick={() => handleGenerateLink(user._id)}>Cards</button> */}
-                    <Link to={`/card`} className="button button-copy">
-                        Cards
-                    </Link>
+                    <button className="button button-openLink" onClick={() => handleGenerateLink(user._id)}>Generate</button>
+          
                   </td>
                   <td>             
                     <Link to={`/show-user/${user._id}?calendarLink=${encodeURIComponent(user.calendarLink || '')}`} className="button button-copy">
@@ -358,10 +387,6 @@ export default function User() {
                 </tr>
               ))}
           </tbody>
-            {/* Render the UserEdit component conditionally */}
-      {/* {editUserId && (
-        <UserEdit userId={user._id} onClose={closeEditPopup} />
-      )} */}
         </table>
         <div className='pagination-container'>
         <nav>

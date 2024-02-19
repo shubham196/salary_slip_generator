@@ -1,12 +1,23 @@
 /* App.css */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 /* #0844a7-color */
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #f0f0f0;
+}
+#custom-id-input-text {
+  width: calc(60% - 30px);
+  color: black;
+  padding: 10px;
+  /* Modify other properties as needed */
+  /* padding: 8px; */
+  box-sizing: border-box;
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
 }
 
 .container-main {
@@ -35,7 +46,7 @@ body {
 .search-container {
   display: flex;
   padding: 2px;
-border-radius: 10px;
+  border-radius: 10px;
   align-items: center;
   background-color: #0844a7;
 
@@ -66,23 +77,23 @@ border-radius: 10px;
 
 .user-info {
   display: flex;
- 
+
   align-items: center;
-  padding: 7px  20px;
+  padding: 7px 20px;
 }
 
 .user-image {
   width: 40px;
-  border: 5px double #0844a7 ;
+  border: 5px double #0844a7;
   height: 40px;
   object-fit: cover;
   border-radius: 50%;
-margin-right: 10px;
+  margin-right: 10px;
 }
 
 .user-name {
   font-size: 17px;
-font-weight: 500;
+  font-weight: 500;
   color: black;
 }
 
@@ -107,7 +118,6 @@ font-weight: 500;
 .logo-img {
   width: 240px;
   height: 65px;
-
 }
 
 hr.horizon-line {
@@ -137,19 +147,17 @@ hr.horizon-line {
   padding-left: 40px;
   border-radius: 10px;
   border: none;
-  background-color:  #0844a7;
+  background-color: #0844a7;
   color: #fff;
 }
 
-  
 /* Add this CSS to your stylesheet */
 
 .search-input-sidebar::placeholder {
-  color: rgb(221, 218, 218);  /* Placeholder text color */
+  color: rgb(221, 218, 218); /* Placeholder text color */
   font-weight: 540; /* Italicize placeholder text (optional) */
   /* Add any other styling properties as needed */
 }
-
 
 .options {
   margin-bottom: 20px;
@@ -159,7 +167,7 @@ hr.horizon-line {
   text-align: left;
   background-color: rgb(245, 240, 240);
   border-radius: 10px;
-  color:  #0844a7;
+  color: #0844a7;
   width: calc(100% - 45px);
   padding: 5px 20px;
   font-size: 19px;
@@ -183,15 +191,14 @@ hr.horizon-line {
   margin-left: 20px;
   margin-right: auto;
   width: 30px;
-  color:  #0844a7;
+  color: #0844a7;
   padding: 5px 10px;
-
 }
 
 .option span {
   font-size: 16px;
-  font-weight:600;
-  color:  #0844a7;
+  font-weight: 600;
+  color: #0844a7;
 }
 /* Add this CSS to your stylesheet */
 
@@ -202,13 +209,12 @@ hr.horizon-line {
 
 .active-link {
   color: black;
-  
+
   background-color: rgb(244, 243, 243);
   border-radius: 10px;
   width: 100%;
   padding: 5px;
 }
-
 
 /* Add this CSS to your stylesheet */
 .sidebar .options .option a {
@@ -225,13 +231,13 @@ hr.horizon-line {
   position: absolute;
   bottom: 20px;
   width: 50%;
- left: 50%;
- transform: translateX(-50%);
-  background-color:  #0844a7;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #0844a7;
   color: gainsboro;
   border: none;
   padding: 10px 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -241,39 +247,35 @@ hr.horizon-line {
   background-color: #c0392b;
 }
 
-
-
 .container {
-    position: relative;
-  width: 79.8%;
-  max-width: 100%;
-  background-color:gainsboro;
-top: 6%;
-left: 19.3%;
-height: 88vh;
-  text-align: center;
   position: relative;
+  width: 80vw;
+  /* max-width: 100%; */
+  background-color: gainsboro;
+  top: 6%;
+  left: 18.5rem;
+  height: 88vh;
+  text-align: center;
   margin: auto 10px;
 }
 
 .container h1 {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 30px;
   font-style: normal;
 }
 
 .table-container {
-
   margin-top: 20px;
-  margin: auto;
-  
   border-collapse: collapse;
-  width: 95%;
+  width: 80vw;
   height: auto;
   animation: fadeIn 1s ease-in-out;
 }
-
+.th-open-card{
+  width: 10vw;
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -285,20 +287,18 @@ height: 88vh;
 
 .table-container th,
 .table-container td {
-  padding: 18px;
+  padding: 7px;
   text-align: center;
 }
 
 .table-container th {
   background-color: black;
-      font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 20px;
   font-style: normal;
   color: white;
 }
-
-
 
 .table-container tr:nth-child(even) {
   background: linear-gradient(
@@ -334,39 +334,74 @@ height: 88vh;
   transition: background-color 0.3s ease-in-out;
 }
 .button-openLink {
-  background: linear-gradient(90deg, #008cba, #005a70); /* Gradient from #008cba to #005a70 */
-    color: white;
-    border-radius: 10px;
-    padding: 10px 30px;
-    border: none;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
+  background: linear-gradient(
+    90deg,
+    #008cba,
+    #005a70
+  ); /* Gradient from #008cba to #005a70 */
+  color: white;
+  border-radius: 10px;
+  padding: 10px 30px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .button-copy {
-  background: linear-gradient(90deg, #008cba, #005a70); /* Gradient from #008cba to #005a70 */
-    border-radius: 10px;
-    color: white;
-    padding: 10px 30px;
-    border: none;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
+  background: linear-gradient(
+    90deg,
+    #008cba,
+    #005a70
+  ); /* Gradient from #008cba to #005a70 */
+  text-decoration: none;
+  border-radius: 10px;
+  color: white;
+  padding: 40px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
-
+.button-save {
+  background: linear-gradient(
+    90deg,
+    #008cba,
+    #005a70
+  ); /* Gradient from #008cba to #005a70 */
+  text-decoration: none;
+  border-radius: 10px;
+  color: white;
+  padding: 40px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
 /* Hover effect for .button-sync */
 .button-edit:hover {
-    background: linear-gradient(90deg, #2e7d32, #1d5e24); /* Darker green gradient for .button-sync on hover */
+  background: linear-gradient(
+    90deg,
+    #2e7d32,
+    #1d5e24
+  ); /* Darker green gradient for .button-sync on hover */
 }
 
 /* Hover effect for .button-stop */
 .button-delete:hover {
-    background: linear-gradient(90deg, #d32f2f, #9a2525); /* Darker red gradient for .button-stop on hover */
+  background: linear-gradient(
+    90deg,
+    #d32f2f,
+    #9a2525
+  ); /* Darker red gradient for .button-stop on hover */
 }
 
 .button-edit {
-  background: linear-gradient(90deg, #4caf50, #2e7d32); /* Green gradient from #4caf50 to #2e7d32 */
+  background: linear-gradient(
+    90deg,
+    #4caf50,
+    #2e7d32
+  ); /* Green gradient from #4caf50 to #2e7d32 */
   color: white;
   border-radius: 10px;
   padding: 10px 35px;
@@ -377,7 +412,11 @@ height: 88vh;
 }
 
 .button-delete {
-  background: linear-gradient(90deg, #f44336, #d32f2f); /* Red gradient from #f44336 to #d32f2f */
+  background: linear-gradient(
+    90deg,
+    #f44336,
+    #d32f2f
+  ); /* Red gradient from #f44336 to #d32f2f */
   color: white;
   border-radius: 10px;
   padding: 10px 35px;
@@ -388,18 +427,30 @@ height: 88vh;
 }
 
 .button-openLink:hover {
-  background: linear-gradient(90deg, #005a70, #00394a); /* Gradient from #005a70 to #00394a on hover */
+  background: linear-gradient(
+    90deg,
+    #005a70,
+    #00394a
+  ); /* Gradient from #005a70 to #00394a on hover */
 }
 
 .button-copy:hover {
-  background: linear-gradient(90deg, #005a70, #00394a); /* Gradient from #005a70 to #00394a on hover */
+  background: linear-gradient(
+    90deg,
+    #005a70,
+    #00394a
+  ); /* Gradient from #005a70 to #00394a on hover */
 }
 
 .button-sign-in {
-   background: linear-gradient(90deg, #008cba, #005a70); /* Gradient from #008cba to #005a70 */
+  background: linear-gradient(
+    90deg,
+    #008cba,
+    #005a70
+  ); /* Gradient from #008cba to #005a70 */
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  
+
   font-style: normal;
   border-radius: 15px;
   padding: 8px 20px;
@@ -408,7 +459,11 @@ height: 88vh;
 }
 
 .button-sign-in:hover {
-    background: linear-gradient(90deg, #005a70, #00394a); /* Gradient from #005a70 to #00394a on hover */
+  background: linear-gradient(
+    90deg,
+    #005a70,
+    #00394a
+  ); /* Gradient from #005a70 to #00394a on hover */
 }
 .sign-in-container {
   position: absolute;
@@ -428,11 +483,17 @@ input[type="text"] {
   transition: border-color 0.3s ease;
 }
 
-.custom-id-input-text  {
-  padding: 8px;
+input[type="file"]{
+  width: calc(100% - 10px);
   color: black;
-  border: 1px solid #ccc;
+  /* Modify other properties as needed */
+  /* padding: 8px; */
+  box-sizing: border-box;
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
 }
+
 
 .search-container-user input[type="text"] {
   width: calc(100% - 10px);
@@ -443,8 +504,6 @@ input[type="text"] {
   transition: border-color 0.3s ease;
   color: white; /* Set the text color to white */
 }
-
-
 
 /* CSS for .search-container-user input[type="text"] */
 .search-container-sidebar input[type="text"] {
@@ -457,23 +516,16 @@ input[type="text"] {
   transition: border-color 0.3s ease;
 }
 
-
 input[type="text"]:focus {
   outline: none;
-  border-color: #4CAF50;
+  border-color: #4caf50;
 }
 
-
-
- 
- 
 .open-popup-btn {
-
-   
   cursor: pointer;
 }
 
-.popup-overlay  {
+.popup-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -486,7 +538,7 @@ input[type="text"]:focus {
 }
 
 .popup-content {
-  background:none;
+  background: none;
   padding: 20px;
   width: 35%;
   height: 70vh;
@@ -510,7 +562,7 @@ input[type="text"]:focus {
 form {
   background-color: whitesmoke;
   border-radius: 20px;
-box-sizing: border-box;
+  box-sizing: border-box;
   height: auto;
   padding: 20px;
   width: 520px;
@@ -591,16 +643,13 @@ box-sizing: border-box;
   transition: transform 200ms, color 200ms;
   top: 20px;
 
-
-    display: inline-block;
-    min-height: 1em;
-    vertical-align: middle;
-    cursor: wait;
-    background-color: transparent;
-    opacity: .5;
-
+  display: inline-block;
+  min-height: 1em;
+  vertical-align: middle;
+  cursor: wait;
+  background-color: transparent;
+  opacity: 0.5;
 }
-
 
 .input:focus ~ .placeholder,
 .input:not(:placeholder-shown) ~ .placeholder {
@@ -631,7 +680,7 @@ box-sizing: border-box;
 }
 
 .submit:hover {
-  background: linear-gradient(90deg, #005a70, #00394a)
+  background: linear-gradient(90deg, #005a70, #00394a);
 }
 
 button[type="submit"] {
@@ -648,78 +697,79 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #0056b3; /* darker blue on hover */
 }
+
 /* App.css */
 /* App.css */
 /* App.css */
 
-.delete-overlay ,
-.edit2-popup-overlay{
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent gray background */
-z-index: 1000;
-display: flex;
-justify-content: center;
-align-items: center;
+.delete-overlay,
+.edit2-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent gray background */
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .delete-confirmation {
-background-color: #fff;
-padding: 20px;
-border-radius: 5px;
-position: relative;
-width: 500px;
-height: 400px; /* Adjust the height as needed */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  width: 500px;
+  height: 400px; /* Adjust the height as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .delete-confirmation p {
-margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .button-container {
-display: flex;
+  display: flex;
 }
 
 .button-yes,
 .button-no {
-padding: 12px 24px; /* Increase button size */
-margin-right: 10px;
-cursor: pointer;
-border: none;
-border-radius: 5px;
-transition: background-color 0.3s; /* Add transition for hover effect */
+  padding: 12px 24px; /* Increase button size */
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s; /* Add transition for hover effect */
 }
 
 .button-yes {
-background-color: #ff4d4f;
-color: #fff;
+  background-color: #ff4d4f;
+  color: #fff;
 }
 
 .button-no {
-background-color: #ddd;
-color: #333;
+  background-color: #ddd;
+  color: #333;
 }
 
 /* Add hover effect */
 .button-yes:hover,
 .button-no:hover {
-background-color: #555;
-color: #fff;
+  background-color: #555;
+  color: #fff;
 }
 
 /* Change color of selected button */
 .button-yes.selected,
 .button-no.selected {
-background-color: #333;
-color: #fff;
+  background-color: #333;
+  color: #fff;
 }
 
 .sign-out-overlay {
@@ -728,7 +778,7 @@ color: #fff;
   left: 1%;
   width: 17.5%;
   height: 50%;
-   /* Semi-transparent black background */
+  /* Semi-transparent black background */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -738,7 +788,7 @@ color: #fff;
   background-color: white;
   padding: 20px;
   border-radius: 5px;
-  color:#000000;
+  color: #000000;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow for the sign-out form container */
   text-align: center;
 }
@@ -746,8 +796,8 @@ color: #fff;
 /* Add styles for buttons and other elements within the sign-out form as needed */
 
 .sign-out-form h2 {
-  margin-bottom: 10px; 
-  text-align: center;/* Spacing below the heading */
+  margin-bottom: 10px;
+  text-align: center; /* Spacing below the heading */
 }
 
 .sign-out-form p {
@@ -778,12 +828,12 @@ color: #fff;
 }
 .search-container-user {
   display: flex;
- 
+
   position: absolute;
   top: 1.2%;
   border-radius: 10px;
   right: 17.5%;
-  padding:4px;
+  padding: 4px;
   width: 17.5%;
   background-color: #0844a7;
   align-items: center;
@@ -809,8 +859,7 @@ color: #fff;
   color: gainsboro;
 }
 
-
-@media screen and (min-width: 1600px) { 
+@media screen and (min-width: 1600px) {
   .close-popup {
     position: absolute;
     top: 90px;
@@ -823,13 +872,8 @@ color: #fff;
     margin-top: 10px;
     width: 265px;
     height: 80px;
-  
   }
-
-  
-
 }
-
 
 .main-container {
   display: flex;
@@ -841,7 +885,11 @@ color: #fff;
 .signup-container,
 .image-container {
   flex: 1;
-  background: linear-gradient(to top, #1d5e24, #2a629d); /* Gradient background */
+  background: linear-gradient(
+    to top,
+    #1d5e24,
+    #2a629d
+  ); /* Gradient background */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -854,7 +902,12 @@ color: #fff;
   flex-direction: column;
   width: 60%; /* Width of the content */
   height: 60vh; /* Height of the content */
-  background-color: rgba(0, 57, 74, 0.5); /* Semi-transparent background color */
+  background-color: rgba(
+    0,
+    57,
+    74,
+    0.5
+  ); /* Semi-transparent background color */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -871,7 +924,11 @@ color: #fff;
   font-size: 20px;
 
   padding: 10px 20px; /* padding */
-  background: linear-gradient(to right, #2c639e, #083174); /* gradient background */
+  background: linear-gradient(
+    to right,
+    #2c639e,
+    #083174
+  ); /* gradient background */
   border: none; /* remove border */
   border-radius: 10px; /* rounded corners */
   font-weight: 500;
@@ -880,19 +937,18 @@ color: #fff;
 }
 
 .signup-button:hover {
-border: gainsboro 5px double;
+  border: gainsboro 5px double;
 }
 
 .signup-image {
   width: 100%;
   height: 100vh;
-
 }
 .image-text {
   position: absolute;
   top: 15%;
   width: 40%;
-  
+
   left: 55%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Box shadow with transparency */
   padding: 5px 10px;
@@ -905,8 +961,7 @@ border: gainsboro 5px double;
   padding: 0 20px;
 }
 
-
-.image-text p{
+.image-text p {
   font-size: 20px;
   padding: 0 20px;
 }
@@ -968,19 +1023,21 @@ border: gainsboro 5px double;
 }
 
 .column p {
-  
   text-align: center;
-  width: 80% ;
+  width: 80%;
   padding: 5px 0px;
   color: black;
   font-size: 20px;
   font-weight: 600;
   border-radius: 5px;
-margin: 10px 60px;
-box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
-  background-color: rgb(237, 234, 234); /* Center-align the text below the image */
+  margin: 10px 60px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  background-color: rgb(
+    237,
+    234,
+    234
+  ); /* Center-align the text below the image */
 }
-
 
 /* error.css */
 
@@ -1020,11 +1077,10 @@ box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 
 .pagination-container {
   position: fixed;
-  bottom: 20px;
+  bottom: 5px;
   left: 60%;
   transform: translateX(-50%);
 }
-
 
 .pagination {
   display: flex;
@@ -1042,7 +1098,7 @@ box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
   background-color: #eee;
   color: #333;
   border: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
