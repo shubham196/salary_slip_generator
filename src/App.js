@@ -10,6 +10,7 @@ import SignUp from "./component/SignUp";
 import CardDesign from "./component/CardDesign";
 import Error from "./component/Error";
 import NamePlate from "./component/NamePlate";
+import SalarySlip from "./component/SalarySlip";
 
 function App() {
   // console.log(data);
@@ -24,6 +25,7 @@ function App() {
           <Route path="/list" element={<CalenderList />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/card" element={<CardDesign />} />
+          <Route path="/salary-slip" element={<SalarySlip />} />
           <Route path= "/show-user/:id" element={ <NamePlate />} /> 
           <Route path="/edit-user/:id" element={ <UserEdit/>} />
           <Route path="/error" element={<Error />} />
