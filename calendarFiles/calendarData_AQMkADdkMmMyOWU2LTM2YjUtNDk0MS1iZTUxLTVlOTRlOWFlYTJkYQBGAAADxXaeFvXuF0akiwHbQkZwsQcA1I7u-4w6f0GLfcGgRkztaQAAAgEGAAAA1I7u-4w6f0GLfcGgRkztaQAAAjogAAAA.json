@@ -1,1 +1,467 @@
-{"@odata.context":"https://graph.microsoft.com/v1.0/$metadata#users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')/events","value":[{"@odata.etag":"W/\"1I7u/4w6f0GLfcGgRkztaQAAA6PoSw==\"","id":"AAMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAAAAADFdp4W9e4XRqSLAdtCRnCxBwDUju7-jDp-QYt9waBGTO1pAAAAAIFAAADUju7-jDp-QYt9waBGTO1pAAADpy_MAAA=","createdDateTime":"2024-01-27T20:01:24.0817071Z","lastModifiedDateTime":"2024-01-27T22:36:08.6563172Z","changeKey":"1I7u/4w6f0GLfcGgRkztaQAAA6PoSw==","categories":[],"transactionId":"0b9e70bd-d0fc-89f9-99ce-ecbb6ad836ea","originalStartTimeZone":"India Standard Time","originalEndTimeZone":"India Standard Time","iCalUId":"040000008200E00074C5B7101A82E00800000000149D509A5B51DA01000000000000000010000000FA36B35FE6FC314BBDD79B6F508072EB","reminderMinutesBeforeStart":15,"isReminderOn":false,"hasAttachments":false,"subject":"Hey late night work","bodyPreview":"","importance":"normal","sensitivity":"normal","isAllDay":false,"isCancelled":false,"isOrganizer":true,"responseRequested":true,"seriesMasterId":null,"showAs":"busy","type":"singleInstance","webLink":"https://outlook.office365.com/owa/?itemid=AAMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAAAAADFdp4W9e4XRqSLAdtCRnCxBwDUju7%2FjDp%2FQYt9waBGTO1pAAAAAIFAAADUju7%2FjDp%2FQYt9waBGTO1pAAADpy%2BMAAA%3D&exvsurl=1&path=/calendar/item","onlineMeetingUrl":null,"isOnlineMeeting":false,"onlineMeetingProvider":"unknown","allowNewTimeProposals":true,"occurrenceId":null,"isDraft":false,"hideAttendees":false,"responseStatus":{"response":"organizer","time":"0001-01-01T00:00:00Z"},"body":{"contentType":"html","content":""},"start":{"dateTime":"2024-01-28T02:00:00.0000000","timeZone":"India Standard Time"},"end":{"dateTime":"2024-01-28T02:30:00.0000000","timeZone":"India Standard Time"},"location":{"displayName":"","locationType":"default","uniqueIdType":"unknown","address":{},"coordinates":{}},"locations":[],"recurrence":null,"attendees":[],"organizer":{"emailAddress":{"name":"Admin .","address":"admin@diginage1.onmicrosoft.com"}},"onlineMeeting":null,"calendar@odata.associationLink":"https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')/$ref","calendar@odata.navigationLink":"https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')"},{"@odata.etag":"W/\"1I7u/4w6f0GLfcGgRkztaQAAAKHpOQ==\"","id":"AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAoFAAAAA1I7u-4w6f0GLfcGgRkztaQAAAaQmGwAAAA==","createdDateTime":"2024-01-23T07:06:31.4210423Z","lastModifiedDateTime":"2024-01-23T09:19:38.5795294Z","changeKey":"1I7u/4w6f0GLfcGgRkztaQAAAKHpOQ==","categories":[],"transactionId":"4d36bfc1-3640-349b-62ec-d27e280ffc31","originalStartTimeZone":"India Standard Time","originalEndTimeZone":"India Standard Time","iCalUId":"040000008200E00074C5B7101A82E008000000001898E4B0CA4DDA01000000000000000010000000FFA26A0135B8C748A58DD768007BD3AD","reminderMinutesBeforeStart":15,"isReminderOn":false,"hasAttachments":false,"subject":"AdminUpcoming Event 2","bodyPreview":"","importance":"normal","sensitivity":"normal","isAllDay":false,"isCancelled":false,"isOrganizer":true,"responseRequested":true,"seriesMasterId":null,"showAs":"busy","type":"singleInstance","webLink":"https://outlook.office365.com/owa/?itemid=AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u%2F4w6f0GLfcGgRkztaQAAAoFAAAAA1I7u%2F4w6f0GLfcGgRkztaQAAAaQmGwAAAA%3D%3D&exvsurl=1&path=/calendar/item","onlineMeetingUrl":null,"isOnlineMeeting":false,"onlineMeetingProvider":"unknown","allowNewTimeProposals":true,"occurrenceId":null,"isDraft":false,"hideAttendees":false,"responseStatus":{"response":"organizer","time":"0001-01-01T00:00:00Z"},"body":{"contentType":"html","content":""},"start":{"dateTime":"2024-01-23T14:00:00.0000000","timeZone":"India Standard Time"},"end":{"dateTime":"2024-01-23T14:30:00.0000000","timeZone":"India Standard Time"},"location":{"displayName":"","locationType":"default","uniqueIdType":"unknown","address":{},"coordinates":{}},"locations":[],"recurrence":null,"attendees":[],"organizer":{"emailAddress":{"name":"Admin .","address":"admin@diginage1.onmicrosoft.com"}},"onlineMeeting":null,"calendar@odata.associationLink":"https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')/$ref","calendar@odata.navigationLink":"https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')"},{"@odata.etag":"W/\"1I7u/4w6f0GLfcGgRkztaQAAAKHpOw==\"","id":"AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAoFAAAAA1I7u-4w6f0GLfcGgRkztaQAAAaQmGQAAAA==","createdDateTime":"2024-01-23T06:48:38.3954079Z","lastModifiedDateTime":"2024-01-23T09:19:38.7776029Z","changeKey":"1I7u/4w6f0GLfcGgRkztaQAAAKHpOw==","categories":[],"transactionId":"ee9f34a7-25b5-749e-99b8-02e6373f97af","originalStartTimeZone":"India Standard Time","originalEndTimeZone":"India Standard Time","iCalUId":"040000008200E00074C5B7101A82E00800000000A5F47831C84DDA0100000000000000001000000014FB48A4F9FEB2429D9DF9710BA2C0B3","reminderMinutesBeforeStart":15,"isReminderOn":false,"hasAttachments":false,"subject":"Admin Test 2 Upcoming 1","bodyPreview":"","importance":"normal","sensitivity":"normal","isAllDay":false,"isCancelled":false,"isOrganizer":true,"responseRequested":true,"seriesMasterId":null,"showAs":"busy","type":"singleInstance","webLink":"https://outlook.office365.com/owa/?itemid=AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u%2F4w6f0GLfcGgRkztaQAAAoFAAAAA1I7u%2F4w6f0GLfcGgRkztaQAAAaQmGQAAAA%3D%3D&exvsurl=1&path=/calendar/item","onlineMeetingUrl":null,"isOnlineMeeting":false,"onlineMeetingProvider":"unknown","allowNewTimeProposals":true,"occurrenceId":null,"isDraft":false,"hideAttendees":false,"responseStatus":{"response":"organizer","time":"0001-01-01T00:00:00Z"},"body":{"contentType":"html","content":""},"start":{"dateTime":"2024-01-23T12:30:00.0000000","timeZone":"India Standard Time"},"end":{"dateTime":"2024-01-23T13:00:00.0000000","timeZone":"India Standard Time"},"location":{"displayName":"","locationType":"default","uniqueIdType":"unknown","address":{},"coordinates":{}},"locations":[],"recurrence":null,"attendees":[],"organizer":{"emailAddress":{"name":"Admin .","address":"admin@diginage1.onmicrosoft.com"}},"onlineMeeting":null,"calendar@odata.associationLink":"https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')/$ref","calendar@odata.navigationLink":"https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')"},{"@odata.etag":"W/\"1I7u/4w6f0GLfcGgRkztaQAAAGVD9w==\"","id":"AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAoFAAAAA1I7u-4w6f0GLfcGgRkztaQAAAQHAwwAAAA==","createdDateTime":"2024-01-22T16:29:12.1900833Z","lastModifiedDateTime":"2024-01-22T19:03:15.5994681Z","changeKey":"1I7u/4w6f0GLfcGgRkztaQAAAGVD9w==","categories":[],"transactionId":"dd2db4e1-9e7c-82e6-ed03-8616289d339c","originalStartTimeZone":"India Standard Time","originalEndTimeZone":"India Standard Time","iCalUId":"040000008200E00074C5B7101A82E00800000000BA926D21504DDA0100000000000000001000000087EC6652D1CD2E408276B7D7E87964AD","reminderMinutesBeforeStart":15,"isReminderOn":false,"hasAttachments":false,"subject":"Admin Update 5252","bodyPreview":"","importance":"normal","sensitivity":"normal","isAllDay":false,"isCancelled":false,"isOrganizer":true,"responseRequested":true,"seriesMasterId":null,"showAs":"busy","type":"singleInstance","webLink":"https://outlook.office365.com/owa/?itemid=AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u%2F4w6f0GLfcGgRkztaQAAAoFAAAAA1I7u%2F4w6f0GLfcGgRkztaQAAAQHAwwAAAA%3D%3D&exvsurl=1&path=/calendar/item","onlineMeetingUrl":null,"isOnlineMeeting":false,"onlineMeetingProvider":"unknown","allowNewTimeProposals":true,"occurrenceId":null,"isDraft":false,"hideAttendees":false,"responseStatus":{"response":"organizer","time":"0001-01-01T00:00:00Z"},"body":{"contentType":"html","content":""},"start":{"dateTime":"2024-01-22T22:00:00.0000000","timeZone":"India Standard Time"},"end":{"dateTime":"2024-01-22T22:30:00.0000000","timeZone":"India Standard Time"},"location":{"displayName":"","locationType":"default","uniqueIdType":"unknown","address":{},"coordinates":{}},"locations":[],"recurrence":null,"attendees":[],"organizer":{"emailAddress":{"name":"Admin .","address":"admin@diginage1.onmicrosoft.com"}},"onlineMeeting":null,"calendar@odata.associationLink":"https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')/$ref","calendar@odata.navigationLink":"https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')"},{"@odata.etag":"W/\"1I7u/4w6f0GLfcGgRkztaQAAAAAvSw==\"","id":"AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAoFAAAAA1I7u-4w6f0GLfcGgRkztaQAAAQHAwgAAAA==","createdDateTime":"2024-01-22T15:44:39.0343831Z","lastModifiedDateTime":"2024-01-22T15:49:54.629199Z","changeKey":"1I7u/4w6f0GLfcGgRkztaQAAAAAvSw==","categories":[],"transactionId":"4a3e7470-96a9-34c6-6bba-97ccef5e951f","originalStartTimeZone":"India Standard Time","originalEndTimeZone":"India Standard Time","iCalUId":"040000008200E00074C5B7101A82E0080000000076C217E8494DDA0100000000000000001000000084A542D2D1F395459CCBE1D952721C3B","reminderMinutesBeforeStart":15,"isReminderOn":false,"hasAttachments":false,"subject":"Admin Event Update 1","bodyPreview":"","importance":"normal","sensitivity":"normal","isAllDay":false,"isCancelled":false,"isOrganizer":true,"responseRequested":true,"seriesMasterId":null,"showAs":"busy","type":"singleInstance","webLink":"https://outlook.office365.com/owa/?itemid=AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u%2F4w6f0GLfcGgRkztaQAAAoFAAAAA1I7u%2F4w6f0GLfcGgRkztaQAAAQHAwgAAAA%3D%3D&exvsurl=1&path=/calendar/item","onlineMeetingUrl":null,"isOnlineMeeting":false,"onlineMeetingProvider":"unknown","allowNewTimeProposals":true,"occurrenceId":null,"isDraft":false,"hideAttendees":false,"responseStatus":{"response":"organizer","time":"0001-01-01T00:00:00Z"},"body":{"contentType":"html","content":""},"start":{"dateTime":"2024-01-22T22:00:00.0000000","timeZone":"India Standard Time"},"end":{"dateTime":"2024-01-22T22:30:00.0000000","timeZone":"India Standard Time"},"location":{"displayName":"","locationType":"default","uniqueIdType":"unknown","address":{},"coordinates":{}},"locations":[],"recurrence":null,"attendees":[],"organizer":{"emailAddress":{"name":"Admin .","address":"admin@diginage1.onmicrosoft.com"}},"onlineMeeting":null,"calendar@odata.associationLink":"https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')/$ref","calendar@odata.navigationLink":"https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')"},{"@odata.etag":"W/\"1I7u/4w6f0GLfcGgRkztaQAAAAAvTQ==\"","id":"AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAoFAAAAA1I7u-4w6f0GLfcGgRkztaQAAAQHAwQAAAA==","createdDateTime":"2024-01-22T08:56:29.5065954Z","lastModifiedDateTime":"2024-01-22T15:49:54.7175314Z","changeKey":"1I7u/4w6f0GLfcGgRkztaQAAAAAvTQ==","categories":[],"transactionId":"b752bc64-c3ed-7d94-bc32-3bd8389e2ba2","originalStartTimeZone":"India Standard Time","originalEndTimeZone":"India Standard Time","iCalUId":"040000008200E00074C5B7101A82E00800000000A1239088104DDA010000000000000000100000009F90052E6B7EC544BD8ED0550BF6A64C","reminderMinutesBeforeStart":15,"isReminderOn":false,"hasAttachments":false,"subject":"Admin Calendar Event 222222222","bodyPreview":"","importance":"normal","sensitivity":"normal","isAllDay":false,"isCancelled":false,"isOrganizer":true,"responseRequested":true,"seriesMasterId":null,"showAs":"busy","type":"singleInstance","webLink":"https://outlook.office365.com/owa/?itemid=AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u%2F4w6f0GLfcGgRkztaQAAAoFAAAAA1I7u%2F4w6f0GLfcGgRkztaQAAAQHAwQAAAA%3D%3D&exvsurl=1&path=/calendar/item","onlineMeetingUrl":null,"isOnlineMeeting":false,"onlineMeetingProvider":"unknown","allowNewTimeProposals":true,"occurrenceId":null,"isDraft":false,"hideAttendees":false,"responseStatus":{"response":"organizer","time":"0001-01-01T00:00:00Z"},"body":{"contentType":"html","content":""},"start":{"dateTime":"2024-01-22T15:00:00.0000000","timeZone":"India Standard Time"},"end":{"dateTime":"2024-01-22T15:30:00.0000000","timeZone":"India Standard Time"},"location":{"displayName":"","locationType":"default","uniqueIdType":"unknown","address":{},"coordinates":{}},"locations":[],"recurrence":null,"attendees":[],"organizer":{"emailAddress":{"name":"Admin .","address":"admin@diginage1.onmicrosoft.com"}},"onlineMeeting":null,"calendar@odata.associationLink":"https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')/$ref","calendar@odata.navigationLink":"https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')"},{"@odata.etag":"W/\"1I7u/4w6f0GLfcGgRkztaQAAAAAWUg==\"","id":"AAMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAAAAADFdp4W9e4XRqSLAdtCRnCxBwDUju7-jDp-QYt9waBGTO1pAAAAAIFAAADUju7-jDp-QYt9waBGTO1pAAAAAcDAAAA=","createdDateTime":"2024-01-22T08:56:29.409689Z","lastModifiedDateTime":"2024-01-22T08:56:30.2203941Z","changeKey":"1I7u/4w6f0GLfcGgRkztaQAAAAAWUg==","categories":[],"transactionId":"0e9333bd-7754-a3ea-aae8-68f9e4dab895","originalStartTimeZone":"India Standard Time","originalEndTimeZone":"India Standard Time","iCalUId":"040000008200E00074C5B7101A82E0080000000026865AB0F04CDA0100000000000000001000000001457C95F58CDB438E383C1FC3BF993A","reminderMinutesBeforeStart":15,"isReminderOn":false,"hasAttachments":false,"subject":"Diginage Event","bodyPreview":"","importance":"normal","sensitivity":"normal","isAllDay":false,"isCancelled":false,"isOrganizer":true,"responseRequested":true,"seriesMasterId":null,"showAs":"busy","type":"singleInstance","webLink":"https://outlook.office365.com/owa/?itemid=AAMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAAAAADFdp4W9e4XRqSLAdtCRnCxBwDUju7%2FjDp%2FQYt9waBGTO1pAAAAAIFAAADUju7%2FjDp%2FQYt9waBGTO1pAAAAAcDAAAA%3D&exvsurl=1&path=/calendar/item","onlineMeetingUrl":null,"isOnlineMeeting":false,"onlineMeetingProvider":"unknown","allowNewTimeProposals":true,"occurrenceId":null,"isDraft":false,"hideAttendees":false,"responseStatus":{"response":"organizer","time":"0001-01-01T00:00:00Z"},"body":{"contentType":"html","content":""},"start":{"dateTime":"2024-01-22T11:00:00.0000000","timeZone":"India Standard Time"},"end":{"dateTime":"2024-01-22T11:30:00.0000000","timeZone":"India Standard Time"},"location":{"displayName":"","locationType":"default","uniqueIdType":"unknown","address":{},"coordinates":{}},"locations":[],"recurrence":null,"attendees":[],"organizer":{"emailAddress":{"name":"Admin .","address":"admin@diginage1.onmicrosoft.com"}},"onlineMeeting":null,"calendar@odata.associationLink":"https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')/$ref","calendar@odata.navigationLink":"https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')"}]}
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')/events",
+  "value": [
+    {
+      "@odata.etag": "W/\"1I7u/4w6f0GLfcGgRkztaQAAA6PoSw==\"",
+      "id": "AAMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAAAAADFdp4W9e4XRqSLAdtCRnCxBwDUju7-jDp-QYt9waBGTO1pAAAAAIFAAADUju7-jDp-QYt9waBGTO1pAAADpy_MAAA=",
+      "createdDateTime": "2024-01-27T20:01:24.0817071Z",
+      "lastModifiedDateTime": "2024-01-27T22:36:08.6563172Z",
+      "changeKey": "1I7u/4w6f0GLfcGgRkztaQAAA6PoSw==",
+      "categories": [],
+      "transactionId": "0b9e70bd-d0fc-89f9-99ce-ecbb6ad836ea",
+      "originalStartTimeZone": "India Standard Time",
+      "originalEndTimeZone": "India Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E00800000000149D509A5B51DA01000000000000000010000000FA36B35FE6FC314BBDD79B6F508072EB",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "Hey late night work",
+      "bodyPreview": "",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": true,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "busy",
+      "type": "singleInstance",
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAAAAADFdp4W9e4XRqSLAdtCRnCxBwDUju7%2FjDp%2FQYt9waBGTO1pAAAAAIFAAADUju7%2FjDp%2FQYt9waBGTO1pAAADpy%2BMAAA%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "isOnlineMeeting": false,
+      "onlineMeetingProvider": "unknown",
+      "allowNewTimeProposals": true,
+      "occurrenceId": null,
+      "isDraft": false,
+      "hideAttendees": false,
+      "responseStatus": {
+        "response": "organizer",
+        "time": "0001-01-01T00:00:00Z"
+      },
+      "body": { "contentType": "html", "content": "" },
+      "start": {
+        "dateTime": "2024-01-28T02:00:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "end": {
+        "dateTime": "2024-01-28T02:30:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "location": {
+        "displayName": "",
+        "locationType": "default",
+        "uniqueIdType": "unknown",
+        "address": {},
+        "coordinates": {}
+      },
+      "locations": [],
+      "recurrence": null,
+      "attendees": [],
+      "organizer": {
+        "emailAddress": {
+          "name": "Admin .",
+          "address": "admin@diginage1.onmicrosoft.com"
+        }
+      },
+      "onlineMeeting": null,
+      "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')/$ref",
+      "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')"
+    },
+    {
+      "@odata.etag": "W/\"1I7u/4w6f0GLfcGgRkztaQAAAKHpOQ==\"",
+      "id": "AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAoFAAAAA1I7u-4w6f0GLfcGgRkztaQAAAaQmGwAAAA==",
+      "createdDateTime": "2024-01-23T07:06:31.4210423Z",
+      "lastModifiedDateTime": "2024-01-23T09:19:38.5795294Z",
+      "changeKey": "1I7u/4w6f0GLfcGgRkztaQAAAKHpOQ==",
+      "categories": [],
+      "transactionId": "4d36bfc1-3640-349b-62ec-d27e280ffc31",
+      "originalStartTimeZone": "India Standard Time",
+      "originalEndTimeZone": "India Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E008000000001898E4B0CA4DDA01000000000000000010000000FFA26A0135B8C748A58DD768007BD3AD",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "AdminUpcoming Event 2",
+      "bodyPreview": "",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": true,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "busy",
+      "type": "singleInstance",
+      "webLink": "https://outlook.office365.com/owa/?itemid=AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u%2F4w6f0GLfcGgRkztaQAAAoFAAAAA1I7u%2F4w6f0GLfcGgRkztaQAAAaQmGwAAAA%3D%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "isOnlineMeeting": false,
+      "onlineMeetingProvider": "unknown",
+      "allowNewTimeProposals": true,
+      "occurrenceId": null,
+      "isDraft": false,
+      "hideAttendees": false,
+      "responseStatus": {
+        "response": "organizer",
+        "time": "0001-01-01T00:00:00Z"
+      },
+      "body": { "contentType": "html", "content": "" },
+      "start": {
+        "dateTime": "2024-01-23T14:00:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "end": {
+        "dateTime": "2024-01-23T14:30:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "location": {
+        "displayName": "",
+        "locationType": "default",
+        "uniqueIdType": "unknown",
+        "address": {},
+        "coordinates": {}
+      },
+      "locations": [],
+      "recurrence": null,
+      "attendees": [],
+      "organizer": {
+        "emailAddress": {
+          "name": "Admin .",
+          "address": "admin@diginage1.onmicrosoft.com"
+        }
+      },
+      "onlineMeeting": null,
+      "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')/$ref",
+      "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')"
+    },
+    {
+      "@odata.etag": "W/\"1I7u/4w6f0GLfcGgRkztaQAAAKHpOw==\"",
+      "id": "AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAoFAAAAA1I7u-4w6f0GLfcGgRkztaQAAAaQmGQAAAA==",
+      "createdDateTime": "2024-01-23T06:48:38.3954079Z",
+      "lastModifiedDateTime": "2024-01-23T09:19:38.7776029Z",
+      "changeKey": "1I7u/4w6f0GLfcGgRkztaQAAAKHpOw==",
+      "categories": [],
+      "transactionId": "ee9f34a7-25b5-749e-99b8-02e6373f97af",
+      "originalStartTimeZone": "India Standard Time",
+      "originalEndTimeZone": "India Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E00800000000A5F47831C84DDA0100000000000000001000000014FB48A4F9FEB2429D9DF9710BA2C0B3",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "Admin Test 2 Upcoming 1",
+      "bodyPreview": "",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": true,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "busy",
+      "type": "singleInstance",
+      "webLink": "https://outlook.office365.com/owa/?itemid=AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u%2F4w6f0GLfcGgRkztaQAAAoFAAAAA1I7u%2F4w6f0GLfcGgRkztaQAAAaQmGQAAAA%3D%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "isOnlineMeeting": false,
+      "onlineMeetingProvider": "unknown",
+      "allowNewTimeProposals": true,
+      "occurrenceId": null,
+      "isDraft": false,
+      "hideAttendees": false,
+      "responseStatus": {
+        "response": "organizer",
+        "time": "0001-01-01T00:00:00Z"
+      },
+      "body": { "contentType": "html", "content": "" },
+      "start": {
+        "dateTime": "2024-01-23T12:30:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "end": {
+        "dateTime": "2024-01-23T13:00:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "location": {
+        "displayName": "",
+        "locationType": "default",
+        "uniqueIdType": "unknown",
+        "address": {},
+        "coordinates": {}
+      },
+      "locations": [],
+      "recurrence": null,
+      "attendees": [],
+      "organizer": {
+        "emailAddress": {
+          "name": "Admin .",
+          "address": "admin@diginage1.onmicrosoft.com"
+        }
+      },
+      "onlineMeeting": null,
+      "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')/$ref",
+      "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')"
+    },
+    {
+      "@odata.etag": "W/\"1I7u/4w6f0GLfcGgRkztaQAAAGVD9w==\"",
+      "id": "AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAoFAAAAA1I7u-4w6f0GLfcGgRkztaQAAAQHAwwAAAA==",
+      "createdDateTime": "2024-01-22T16:29:12.1900833Z",
+      "lastModifiedDateTime": "2024-01-22T19:03:15.5994681Z",
+      "changeKey": "1I7u/4w6f0GLfcGgRkztaQAAAGVD9w==",
+      "categories": [],
+      "transactionId": "dd2db4e1-9e7c-82e6-ed03-8616289d339c",
+      "originalStartTimeZone": "India Standard Time",
+      "originalEndTimeZone": "India Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E00800000000BA926D21504DDA0100000000000000001000000087EC6652D1CD2E408276B7D7E87964AD",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "Admin Update 5252",
+      "bodyPreview": "",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": true,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "busy",
+      "type": "singleInstance",
+      "webLink": "https://outlook.office365.com/owa/?itemid=AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u%2F4w6f0GLfcGgRkztaQAAAoFAAAAA1I7u%2F4w6f0GLfcGgRkztaQAAAQHAwwAAAA%3D%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "isOnlineMeeting": false,
+      "onlineMeetingProvider": "unknown",
+      "allowNewTimeProposals": true,
+      "occurrenceId": null,
+      "isDraft": false,
+      "hideAttendees": false,
+      "responseStatus": {
+        "response": "organizer",
+        "time": "0001-01-01T00:00:00Z"
+      },
+      "body": { "contentType": "html", "content": "" },
+      "start": {
+        "dateTime": "2024-01-22T22:00:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "end": {
+        "dateTime": "2024-01-22T22:30:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "location": {
+        "displayName": "",
+        "locationType": "default",
+        "uniqueIdType": "unknown",
+        "address": {},
+        "coordinates": {}
+      },
+      "locations": [],
+      "recurrence": null,
+      "attendees": [],
+      "organizer": {
+        "emailAddress": {
+          "name": "Admin .",
+          "address": "admin@diginage1.onmicrosoft.com"
+        }
+      },
+      "onlineMeeting": null,
+      "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')/$ref",
+      "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')"
+    },
+    {
+      "@odata.etag": "W/\"1I7u/4w6f0GLfcGgRkztaQAAAAAvSw==\"",
+      "id": "AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAoFAAAAA1I7u-4w6f0GLfcGgRkztaQAAAQHAwgAAAA==",
+      "createdDateTime": "2024-01-22T15:44:39.0343831Z",
+      "lastModifiedDateTime": "2024-01-22T15:49:54.629199Z",
+      "changeKey": "1I7u/4w6f0GLfcGgRkztaQAAAAAvSw==",
+      "categories": [],
+      "transactionId": "4a3e7470-96a9-34c6-6bba-97ccef5e951f",
+      "originalStartTimeZone": "India Standard Time",
+      "originalEndTimeZone": "India Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E0080000000076C217E8494DDA0100000000000000001000000084A542D2D1F395459CCBE1D952721C3B",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "Admin Event Update 1",
+      "bodyPreview": "",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": true,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "busy",
+      "type": "singleInstance",
+      "webLink": "https://outlook.office365.com/owa/?itemid=AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u%2F4w6f0GLfcGgRkztaQAAAoFAAAAA1I7u%2F4w6f0GLfcGgRkztaQAAAQHAwgAAAA%3D%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "isOnlineMeeting": false,
+      "onlineMeetingProvider": "unknown",
+      "allowNewTimeProposals": true,
+      "occurrenceId": null,
+      "isDraft": false,
+      "hideAttendees": false,
+      "responseStatus": {
+        "response": "organizer",
+        "time": "0001-01-01T00:00:00Z"
+      },
+      "body": { "contentType": "html", "content": "" },
+      "start": {
+        "dateTime": "2024-01-22T22:00:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "end": {
+        "dateTime": "2024-01-22T22:30:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "location": {
+        "displayName": "",
+        "locationType": "default",
+        "uniqueIdType": "unknown",
+        "address": {},
+        "coordinates": {}
+      },
+      "locations": [],
+      "recurrence": null,
+      "attendees": [],
+      "organizer": {
+        "emailAddress": {
+          "name": "Admin .",
+          "address": "admin@diginage1.onmicrosoft.com"
+        }
+      },
+      "onlineMeeting": null,
+      "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')/$ref",
+      "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')"
+    },
+    {
+      "@odata.etag": "W/\"1I7u/4w6f0GLfcGgRkztaQAAAAAvTQ==\"",
+      "id": "AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAoFAAAAA1I7u-4w6f0GLfcGgRkztaQAAAQHAwQAAAA==",
+      "createdDateTime": "2024-01-22T08:56:29.5065954Z",
+      "lastModifiedDateTime": "2024-01-22T15:49:54.7175314Z",
+      "changeKey": "1I7u/4w6f0GLfcGgRkztaQAAAAAvTQ==",
+      "categories": [],
+      "transactionId": "b752bc64-c3ed-7d94-bc32-3bd8389e2ba2",
+      "originalStartTimeZone": "India Standard Time",
+      "originalEndTimeZone": "India Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E00800000000A1239088104DDA010000000000000000100000009F90052E6B7EC544BD8ED0550BF6A64C",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "Admin Calendar Event 222222222",
+      "bodyPreview": "",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": true,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "busy",
+      "type": "singleInstance",
+      "webLink": "https://outlook.office365.com/owa/?itemid=AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u%2F4w6f0GLfcGgRkztaQAAAoFAAAAA1I7u%2F4w6f0GLfcGgRkztaQAAAQHAwQAAAA%3D%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "isOnlineMeeting": false,
+      "onlineMeetingProvider": "unknown",
+      "allowNewTimeProposals": true,
+      "occurrenceId": null,
+      "isDraft": false,
+      "hideAttendees": false,
+      "responseStatus": {
+        "response": "organizer",
+        "time": "0001-01-01T00:00:00Z"
+      },
+      "body": { "contentType": "html", "content": "" },
+      "start": {
+        "dateTime": "2024-01-22T15:00:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "end": {
+        "dateTime": "2024-01-22T15:30:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "location": {
+        "displayName": "",
+        "locationType": "default",
+        "uniqueIdType": "unknown",
+        "address": {},
+        "coordinates": {}
+      },
+      "locations": [],
+      "recurrence": null,
+      "attendees": [],
+      "organizer": {
+        "emailAddress": {
+          "name": "Admin .",
+          "address": "admin@diginage1.onmicrosoft.com"
+        }
+      },
+      "onlineMeeting": null,
+      "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')/$ref",
+      "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')"
+    },
+    {
+      "@odata.etag": "W/\"1I7u/4w6f0GLfcGgRkztaQAAAAAWUg==\"",
+      "id": "AAMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAAAAADFdp4W9e4XRqSLAdtCRnCxBwDUju7-jDp-QYt9waBGTO1pAAAAAIFAAADUju7-jDp-QYt9waBGTO1pAAAAAcDAAAA=",
+      "createdDateTime": "2024-01-22T08:56:29.409689Z",
+      "lastModifiedDateTime": "2024-01-22T08:56:30.2203941Z",
+      "changeKey": "1I7u/4w6f0GLfcGgRkztaQAAAAAWUg==",
+      "categories": [],
+      "transactionId": "0e9333bd-7754-a3ea-aae8-68f9e4dab895",
+      "originalStartTimeZone": "India Standard Time",
+      "originalEndTimeZone": "India Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E0080000000026865AB0F04CDA0100000000000000001000000001457C95F58CDB438E383C1FC3BF993A",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "Diginage Event",
+      "bodyPreview": "",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": true,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "busy",
+      "type": "singleInstance",
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAAAAADFdp4W9e4XRqSLAdtCRnCxBwDUju7%2FjDp%2FQYt9waBGTO1pAAAAAIFAAADUju7%2FjDp%2FQYt9waBGTO1pAAAAAcDAAAA%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "isOnlineMeeting": false,
+      "onlineMeetingProvider": "unknown",
+      "allowNewTimeProposals": true,
+      "occurrenceId": null,
+      "isDraft": false,
+      "hideAttendees": false,
+      "responseStatus": {
+        "response": "organizer",
+        "time": "0001-01-01T00:00:00Z"
+      },
+      "body": { "contentType": "html", "content": "" },
+      "start": {
+        "dateTime": "2024-01-22T11:00:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "end": {
+        "dateTime": "2024-01-22T11:30:00.0000000",
+        "timeZone": "India Standard Time"
+      },
+      "location": {
+        "displayName": "",
+        "locationType": "default",
+        "uniqueIdType": "unknown",
+        "address": {},
+        "coordinates": {}
+      },
+      "locations": [],
+      "recurrence": null,
+      "attendees": [],
+      "organizer": {
+        "emailAddress": {
+          "name": "Admin .",
+          "address": "admin@diginage1.onmicrosoft.com"
+        }
+      },
+      "onlineMeeting": null,
+      "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')/$ref",
+      "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('81acf0c4-c9d8-4a96-b549-4561b4bfb2ba')/calendars('AQMkADdkMmMyOWU2LTM2YjUtNDk0MS1iZTUxLTVlOTRlOWFlYTJkYQBGAAADxXaeFvXuF0akiwHbQkZwsQcA1I7u-4w6f0GLfcGgRkztaQAAAgEGAAAA1I7u-4w6f0GLfcGgRkztaQAAAjogAAAA')"
+    }
+  ]
+}

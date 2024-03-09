@@ -2,7 +2,7 @@ var Service = require('node-windows').Service;
 
 // Create a new service object
 var svc = new Service({
-  name:'Outlook Background Service',
+  name:'ADPORTS SERVICE',
   description: 'The nodejs.org example web server.',
   script: './bin/www',
   nodeOptions: [
